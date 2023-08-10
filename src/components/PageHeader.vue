@@ -47,7 +47,7 @@
   font-size: 1.5rem;
 }
 
-@media (min-width: 1024px) {
+/*@media (min-width: 1024px) {
   .page-header{
     display: block;
     margin-left: -1vw;
@@ -57,5 +57,5 @@
   .img-wrap{
     background: rgb(72, 0, 131);
   }
-}
+}*/
 </style>

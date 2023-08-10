@@ -222,40 +222,9 @@ button:hover {
     place-items: center;
   }
 
-  #app {
+  /* #app {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
-  }
-
-  .greetings h1, .greetings h3 {
-    text-align: left;
-  }
-
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  header .page-container {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap; 
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1.15rem;
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
-
-  .list {
-    font-size: 1.5em;
-    justify-content: right;
-    width: 80vw;
-    padding: 0 5vw 0 0;
-  }
+  } */
 }
