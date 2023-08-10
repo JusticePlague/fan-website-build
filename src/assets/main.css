@@ -1,27 +1,222 @@
+/*    Rescources   */
+
 @import './base.css';
+
+/*    Styling Here   */
+/*    Page   */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
 
 #app {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-
   font-weight: normal;
 }
 
-a,
-.green {
+.todo-app {
+  padding: 5vh;
+  min-width: 10vw;
+}
+
+/*    Header    */
+
+header {
+  line-height: 1.5;
+  max-height: 100vh;
+}
+
+.header {
+  color: var(--text-5);
+}
+
+.miniHome {
+  color: var(--text-2);
+  padding: 2vh;
+}
+
+/*    Navigation    */
+
+nav {
+  width: 100%;
+  font-size: 1.15rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+nav a.router-link-exact-active {
+  color: var(--link-active);
+}
+
+nav a.router-link-exact-active:hover {
+  background-color: transparent;
+  border-left: 4px solid var(--nav-border);
+  color: var(--link-active);
+}
+
+nav a {
+  color: var(--link);
+  display: inline-block;
+  padding: 0 1rem;
+  border-left: 4px solid var(--nav-border);
+}
+
+nav a:hover {
+  background-color: var(--nav-hover);
+  color: var(--link-hover);
+  border-left: 4px solid var(--nav-border-hover);
+}
+
+a {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
   transition: 0.4s;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+/*  Universal Styles */
+
+h1 {
+  color: var(--text-5);
+  font-family: "Cinzel", serif;
+  font-weight: 500;
+  position: relative;
+  top: -10px;
+  text-align: center;
 }
 
+h2 {
+  color: var(--text-3);
+  font-family: "Parisienne", cursive;
+}
+
+h3 {
+  color: var(--text-4);
+  font-family: "Cinzel", serif;
+  text-align: center;
+}
+
+h4 {
+  color: var(--text-1);
+  font-family: "Parisienne", cursive;
+}
+
+h5 {
+  color: var(--text-4);
+  font-family: "Cinzel", serif;
+}
+
+h6 {
+  color: var(--text-3);
+  font-family: "Parisienne", cursive;
+}
+
+p {
+  color: var(--text-2);
+  padding: 1.2em;
+} 
+
+body {
+  min-height: 100vh;
+  color: var(--text-1);
+  background: var(--bg);
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  /* font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; */
+  font-size: 15px;
+}
+
+div {
+  text-align: center;
+}
+
+span {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+form {
+  margin-bottom: 15px;
+}
+
+input {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  height: 30px;
+  width: 50%;
+}
+
+button {
+  margin-left: 30px;
+  background-color: var(--button);
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 800;
+  color: var(--button-text);
+}
+
+button:hover {
+  background-color: var(--button-hover);
+  color: var(--button-text-hover);
+}
+
+.alert-div {
+  min-height: 25px;
+}
+
+.alert {
+  color: var(--text-2);
+  font-size: 1em;
+  font-weight: 600;
+}
+
+/*  ToDo App Styles */
+
+.item {
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  display: flex;
+  font-size: 1.5em;
+  justify-content: right;
+  width: 80vw;
+  padding: 0 15vw 0 0;
+  color: var(--text-5);
+}
+
+.completed {
+  text-decoration: line-through;
+  color: var(--text-1);
+}
+
+.todo-app h1 {
+  color: var(--text-3);
+}
+
+/* About Page Styles  */
+
+.miniAbout {
+  background: linear-gradient(to right, var(--color-bar-1), var(--color-bar-2), var(--color-bar-3), var(--color-bar-2), var(--color-bar-1));
+  color: var(--color-bar-text);
+  margin-top: 10%;
+  min-height: fit-content;
+  max-height: 145px;
+  border: 5px solid transparent;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 5vh;
+}
+
+/*   Page resizing and Item Placement    */
+
 @media (min-width: 1024px) {
+
   body {
     display: flex;
     place-items: center;
@@ -31,5 +226,36 @@ a,
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
+  }
+
+  .greetings h1, .greetings h3 {
+    text-align: left;
+  }
+
+  header {
+    display: flex;
+    place-items: center;
+    padding-right: calc(var(--section-gap) / 2);
+  }
+
+  header .page-container {
+    display: flex;
+    place-items: flex-start;
+    flex-wrap: wrap; 
+  }
+
+  nav {
+    text-align: left;
+    margin-left: -1rem;
+    font-size: 1.15rem;
+    padding: 1rem 0;
+    margin-top: 1rem;
+  }
+
+  .list {
+    font-size: 1.5em;
+    justify-content: right;
+    width: 80vw;
+    padding: 0 5vw 0 0;
   }
 }

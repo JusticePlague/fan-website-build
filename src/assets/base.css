@@ -1,73 +1,120 @@
-/* color palette from <https://github.com/vuejs/theme> */
+/*  Variable Declaration  */
+
+
 :root {
-  --vt-c-white: #ffffff;
-  --vt-c-white-soft: #f8f8f8;
-  --vt-c-white-mute: #f2f2f2;
+  /*    Color Variables    */
+  /*    Light Mode    */
+  --light: #ffee91;
+  --light-2: #fffbbf;
 
-  --vt-c-black: #181818;
-  --vt-c-black-soft: #222222;
-  --vt-c-black-mute: #282828;
+  --light-accent-1: #606060;
+  --light-accent-1t: #60606080;
+  --light-accent-2: #404040;
+  --light-accent-2t: #40404080;
+  --light-accent-3: #0080DD;
+  --light-accent-3t: #0080DD80;
+  --light-accent-4: #dd0000;
+  --light-accent-4t: #dd000080;
+  --light-accent-5: #000000;
+  --light-accent-5t: #00000080;
 
-  --vt-c-indigo: #2c3e50;
+  /*    Dark Mode    */
+  --dark: #000000;
+  --dark-2: #0f0f0f;
 
-  --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
-  --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
-  --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
-  --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
+  --dark-accent-1: #c0c0c0;
+  --dark-accent-1t: #c0c0c080;
+  --dark-accent-2: #808080;
+  --dark-accent-2t: #80808080;
+  --dark-accent-3: #0066ff;
+  --dark-accent-3t: #0066ff80;
+  --dark-accent-4: #c00000;
+  --dark-accent-4t: #c0000080;
+  --dark-accent-5: #ffee91;
+  --dark-accent-5t: #ffee9180;
 
-  --vt-c-text-light-1: var(--vt-c-indigo);
-  --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
-  --vt-c-text-dark-1: var(--vt-c-white);
-  --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
-}
-
-/* semantic color variables for this project */
-:root {
-  --color-background: var(--vt-c-white);
-  --color-background-soft: var(--vt-c-white-soft);
-  --color-background-mute: var(--vt-c-white-mute);
-
-  --color-border: var(--vt-c-divider-light-2);
-  --color-border-hover: var(--vt-c-divider-light-1);
-
-  --color-heading: var(--vt-c-text-light-1);
-  --color-text: var(--vt-c-text-light-1);
-
+  /* Universal Variables */
   --section-gap: 160px;
+  --avy: url("https://cdn2.picryl.com/photo/2009/10/15/moon-false-color-mosaic-2e13f9-1024.jpg");
+  --grid-img: url("https://cdn2.picryl.com/photo/2009/10/15/moon-false-color-mosaic-2e13f9-1024.jpg");
 }
 
-@media (prefers-color-scheme: dark) {
+/*  Variables Based on User Preference  */
+/* light variable declaration */
+@media (prefers-color-scheme: light) {
   :root {
-    --color-background: var(--vt-c-black);
-    --color-background-soft: var(--vt-c-black-soft);
-    --color-background-mute: var(--vt-c-black-mute);
+    --bg: var(--light);
+    --bg-2: var(--light-2);
+   
+    --border: var(--light-accent-1);
+    --nav-border: var(--light-accent-3);
+    --nav-hover: var(--light-accent-2);
+    --nav-border-hover: var(--light-accent-2);
 
-    --color-border: var(--vt-c-divider-dark-2);
-    --color-border-hover: var(--vt-c-divider-dark-1);
+    --button: var(--light-accent-3);
+    --button-text: var(--light-accent-5);
+    --button-hover: var( --light-accent-5);
+    --button-text-hover: var(--light-accent-3);
 
-    --color-heading: var(--vt-c-text-dark-1);
-    --color-text: var(--vt-c-text-dark-2);
+    --text-1: var(--light-accent-1);
+    --text-2: var(--light-accent-2);
+    --text-3: var(--light-accent-3);
+    --text-4: var(--light-accent-4);
+    --text-5: var(--light-accent-5);
+
+    --link: var(--light-accent-3);
+    --link-active: var(--light-accent-5);
+    --link-hover: var(--light);
+
+    --color-1: var(--light-accent-1t);
+    --color-2: var(--light-accent-2t);
+    --color-3: var(--light-accent-3t);
+    --color-4: var(--light-accent-4t);
+    --color-5: var(--light-accent-5t);
+
+    --color-bar-1: var(--light-accent-1t);
+    --color-bar-2: var(--light-accent-2t);
+    --color-bar-3: var(--light-accent-5t);
+    --color-bar-text: var(--light-accent-5);
   }
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  font-weight: normal;
+/* dark variable declaration */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: var(--dark);
+    --bg-2: var(--dark-2);
+   
+    --border: var(--dark-accent-3);
+    --nav-border: var(--dark-accent-3);
+    --nav-hover: var(--dark-accent-2);
+    --nav-border-hover: var(--dark-accent-2);
+
+    --button: var(--dark-accent-4);
+    --button-text: var(--dark-accent-1);
+    --button-hover: var(--dark-accent-2);
+    --button-text-hover: var(--dark-accent-4);
+
+    --text-1: var(--dark-accent-1);
+    --text-2: var(--dark-accent-2);
+    --text-3: var(--dark-accent-3);
+    --text-4: var(--dark-accent-4);
+    --text-5: var(--dark-accent-5);
+
+    --link: var(--dark-accent-3);
+    --link-active: var(--dark-accent-5);
+    --link-hover: var(--dark);
+
+    --color-1: var(--dark-accent-1t);
+    --color-2: var(--dark-accent-2t);
+    --color-3: var(--dark-accent-3t);
+    --color-4: var(--dark-accent-4t);
+    --color-5: var(--dark-accent-5t);
+
+    --color-bar-1: var(--dark-accent-5t);
+    --color-bar-2: var(--dark-accent-4t);
+    --color-bar-3: var(--dark-accent-3t);
+    --color-bar-text: var(--dark-accent-5);
+  }
 }
 
-body {
-  min-height: 100vh;
-  color: var(--color-text);
-  background: var(--color-background);
-  transition: color 0.5s, background-color 0.5s;
-  line-height: 1.6;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-    Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  font-size: 15px;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
