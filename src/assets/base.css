@@ -53,7 +53,7 @@
     --nav-border-hover: var(--light-accent-2);
     --nav-link: var(--light);
     --nav-link-hover: var(--light);
-    --nav-link-active: var(var(--light-accent-1))
+    --nav-link-active: var(--light-accent-1);
 
     --button: var(--light-accent-3);
     --button-text: var(--light-accent-5);

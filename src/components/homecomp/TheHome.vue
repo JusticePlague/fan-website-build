@@ -170,12 +170,25 @@
     border-top-right-radius: 50px;
   }
 
-  .box-header-bottom,
-  .box-header-bottom h1 {
-    border-top: var(--border) solid 5px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-  }
+  .box-header-top,
+.box-header-bottom
+  {
+  background: #000;
+  padding-top:5px;
+}
+
+.box-header-bottom{
+  border-top: var(--border) solid 5px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.box-header-top h1,
+.box-header-bottom h1 {
+  margin-top:1vh;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
 
   .box-text-top{
     background-color: var(--bg-2);
@@ -230,6 +243,7 @@
     display:inline-block;
   }
   
+  .col-6,
   .col-3{
     width:100%;
   }
@@ -238,35 +252,15 @@
   .righttop,
   .leftbottom,
   .rightbottom {
-    border-bottom: var(--border) solid 5px;
-    border-top: var(--border) solid 5px;
     border-radius: 50px;
-  }
-  
-  .box-header-top,
-  .box-header-top h1 {
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
   }
   
   .box-header-bottom,
   .box-header-bottom h1 {
     margin-top:1vh;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
   }
   
-  .box-text-top{
-    background-color: var(--bg-2);
-    height: 20vh;
-    margin: auto;
-    text-align: center;
-    padding: 10px 25px;
-    overflow: scroll;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-  }
-  
+  .box-text-top,
   .box-text-bottom{
     background-color: var(--bg-2);
     height: 20vh;
@@ -276,6 +270,32 @@
     overflow: scroll;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
+    border-bottom: var(--border) solid 5px;
+  }
+
+  .leftbottom,
+  .rightbottom {
+    margin-top: 0;
+  }
+
+  .box-header-bottom,
+  .box-header-top{
+    padding-top:5px;
+    border-top: var(--border) solid 5px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-top: -.5vh;
+  }
+
+  .right{
+    margin-top: -1vh;
+  }
+
+  .box-header-top h1,
+  .box-header-bottom h1 {
+    margin-top:1vh;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
   }
 }
 </style>
