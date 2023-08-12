@@ -263,7 +263,8 @@
   .box-text-top,
   .box-text-bottom{
     background-color: var(--bg-2);
-    height: 20vh;
+    height:250px;
+    max-height: 50vh;
     margin: auto;
     text-align: center;
     padding: 10px 25px;
@@ -288,7 +289,7 @@
   }
 
   .right{
-    margin-top: -1vh;
+    margin-top: -1.5vh;
   }
 
   .box-header-top h1,
