@@ -204,7 +204,6 @@
   .main {
     display: block;
     margin-top: 2vh;
-    background: #f00;
     margin-right: auto;
     margin-left: auto;
     max-width: fit-content;
