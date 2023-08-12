@@ -42,7 +42,6 @@
 }
 
 .header-title{
-  background-color: rgb(2, 2, 105);
   font-size: 1.5rem;
   border-bottom-right-radius: 50px;
   border-bottom-left-radius: 50px;

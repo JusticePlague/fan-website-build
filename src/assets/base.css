@@ -48,9 +48,12 @@
    
     --border: var(--light-accent-1);
     --border-2: var(--light-accent-5);
-    --nav-border: var(--light-accent-3);
+    --nav-border: var(--light-accent-4);
     --nav-hover: var(--light-accent-2);
     --nav-border-hover: var(--light-accent-2);
+    --nav-link: var(--light);
+    --nav-link-hover: var(--light);
+    --nav-link-active: var(var(--light-accent-1))
 
     --button: var(--light-accent-3);
     --button-text: var(--light-accent-5);
@@ -64,7 +67,7 @@
     --text-5: var(--light-accent-5);
 
     --link: var(--light-accent-3);
-    --link-active: var(--light-accent-5);
+    --link-active: var(--light-accent-4);
     --link-hover: var(--light);
 
     --color-1: var(--light-accent-1);
@@ -93,6 +96,7 @@
    
     --border: var(--dark-accent-3);
     --border-2: var(--dark-accent-5);
+    --border-3: var(--dark-accent-3);
     --nav-border: var(--dark-accent-3);
     --nav-hover: var(--dark-accent-2);
     --nav-border-hover: var(--dark-accent-2);
