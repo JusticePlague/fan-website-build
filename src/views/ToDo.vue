@@ -3,7 +3,9 @@ import TodoApp from '/src/components/todocomp/TodoApp.vue'
 </script>
 
 <template>
-  <todo-app />
+  <main>
+    <todo-app />
+  </main>
 </template>
 
 <style scoped>

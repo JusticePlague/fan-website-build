@@ -3,9 +3,9 @@ import TheContact from '../components/contactcomp/TheContact.vue'
 </script>
 
 <template>
-    <div>
+    <main>
         <TheContact />
-    </div>
+    </main>
 </template>
 
 <style scoped>

@@ -34,7 +34,14 @@ export default {
 </script>
 
 <template>
-    <form @submit.prevent="submitForm">
+    
+
+  <div class="banners">
+    <h1 class="colorBar">SO LONG AND GOODNIGHTTTTT</h1>
+  </div>
+  
+    <main>
+      <form @submit.prevent="submitForm">
         <div class="name-input">
             <input type="text" name="name" v-model="name"/>
         </div>
@@ -48,9 +55,11 @@ export default {
         </div>
       
       
-      <button type="submit">Send Message</button>
-    </form>
+        <button type="submit">Send Message</button>
+      </form>
+    </main>
 </template>
   
 <style scoped>
+
 </style>

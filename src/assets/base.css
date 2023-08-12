@@ -7,7 +7,7 @@
   --light: #ffee91;
   --light-2: #fffbbf;
 
-  --light-accent-1: #606060;
+  --light-accent-1: #808080;
   --light-accent-1t: #60606080;
   --light-accent-2: #404040;
   --light-accent-2t: #40404080;
@@ -67,16 +67,21 @@
     --link-active: var(--light-accent-5);
     --link-hover: var(--light);
 
-    --color-1: var(--light-accent-1t);
-    --color-2: var(--light-accent-2t);
-    --color-3: var(--light-accent-3t);
-    --color-4: var(--light-accent-4t);
-    --color-5: var(--light-accent-5t);
+    --color-1: var(--light-accent-1);
+    --color-1t: var(--light-accent-1t);
+    --color-2: var(--light-accent-2);
+    --color-2t: var(--light-accent-2t);
+    --color-3: var(--light-accent-3);
+    --color-3t: var(--light-accent-3t);
+    --color-4: var(--light-accent-4);
+    --color-4t: var(--light-accent-4t);
+    --color-5: var(--light-accent-5);
+    --color-5t: var(--light-accent-5t);
 
-    --color-bar-1: var(--light-accent-1t);
-    --color-bar-2: var(--light-accent-2t);
-    --color-bar-3: var(--light-accent-5t);
-    --color-bar-text: var(--light-accent-5);
+    --color-bar-1: var(--light-accent-1);
+    --color-bar-2: var(--light-accent-2);
+    --color-bar-3: var(--light-accent-5);
+    --color-bar-text: var(--dark-accent-5);
   }
 }
 
@@ -107,16 +112,21 @@
     --link-active: var(--dark-accent-5);
     --link-hover: var(--dark);
 
-    --color-1: var(--dark-accent-1t);
-    --color-2: var(--dark-accent-2t);
-    --color-3: var(--dark-accent-3t);
-    --color-4: var(--dark-accent-4t);
-    --color-5: var(--dark-accent-5t);
+    --color-1: var(--dark-accent-1);
+    --color-1t: var(--dark-accent-1t);
+    --color-2: var(--dark-accent-2);
+    --color-2t: var(--dark-accent-2t);
+    --color-3: var(--dark-accent-3);
+    --color-3t: var(--dark-accent-3t);
+    --color-4: var(--dark-accent-4);
+    --color-4t: var(--dark-accent-4t);
+    --color-5: var(--dark-accent-5);
+    --color-5t: var(--dark-accent-5t);
 
-    --color-bar-1: var(--dark-accent-5t);
-    --color-bar-2: var(--dark-accent-4t);
-    --color-bar-3: var(--dark-accent-3t);
-    --color-bar-text: var(--dark-accent-5);
+    --color-bar-1: var(--dark-accent-5);
+    --color-bar-2: var(--dark-accent-4);
+    --color-bar-3: var(--dark-accent-3);
+    --color-bar-text: var(--light-accent-5);
   }
 }
 

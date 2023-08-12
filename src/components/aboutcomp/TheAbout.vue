@@ -3,13 +3,11 @@
 </script>
 
 <template>
-  <div class="banners">
-    <h1 class="miniAbout">SO LONG AND GOODNIGHTTTTT</h1>
-    <h3>
-      EEEE so what nowwwww
-    </h3>
-  </div>
 
+    <div class="banners">
+      <h1 class="colorBar">SO LONG AND GOODNIGHTTTTT</h1>
+    </div>
+  <main>
     <div class="grid">
 
       <div class="top">
@@ -48,7 +46,7 @@
 
       </div>
     </div>
-
+  </main>
   
   
 </template>
@@ -56,6 +54,8 @@
 <style scoped>
 
 /*Divs*/
+
+
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
