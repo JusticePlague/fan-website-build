@@ -313,9 +313,6 @@ button:hover {
 }
 
 @media (max-width: 480px) {
-  body {
-    background: #0ff;
-  }
 
   .header {
     color: var(--text-3);
