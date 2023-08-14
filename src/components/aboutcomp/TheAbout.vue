@@ -79,7 +79,6 @@
     grid-column-start: 1;
     grid-column-end: 3;
     min-width:50%;
-    
     overflow: scroll;
   }
 
@@ -154,6 +153,9 @@
     max-height: 80vw;
     background-color: transparent;
     border-radius: 50%;
+    margin-bottom: 0vh;
+    border-top: var(--border) solid 5px;
+    border-bottom: var(--border) solid 5px;
   }
 
   .top, .bottomleft{
@@ -161,8 +163,8 @@
     text-align: center;
     padding: 10px 25px;
     border-radius: 50px;
-    border-bottom: var(--border) solid;
-    border-top: var(--border) solid;
+    border-bottom: var(--border) solid 5px;
+    border-top: var(--border) solid 5px;
   }
 
   .grid-img {
