@@ -41,7 +41,7 @@
 
       <div class="bottomright">
 
-        <div class="avatar">
+        <div class="grid-img">
         </div>
 
       </div>
@@ -55,61 +55,126 @@
 
 /*Divs*/
 
+@media (min-width: 781px){
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 25vh;
+    grid-auto-columns: 25vw;
+  }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: 25vh;
-  grid-auto-columns: 25vw;
+  .top {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-bottom: var(--border) solid 5px;
+    border-radius: 50px;
+    overflow: scroll;
+  }
+
+  .bottomleft {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    min-width:50%;
+    
+    overflow: scroll;
+  }
+
+  .bottomright {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    overflow: hidden;
+    max-width: 300px;
+    align-self: grid-column-end;
+  }
+
+  .bottomleft, .bottomright {
+    border-top: var(--border) solid 5px;
+    border-radius: 50px;
+    margin-top: -5px;
+  }
+
+  .top, .bottomleft {
+    background-color: var(--bg-2);
+    text-align: center;
+    padding: 10px 25px;
+  }
+  .bottomright {
+    background-color: transparent;
+    text-align: center;
+    padding: 10px 25px;
+  }
+
+  .grid-img {
+    width: 135%;
+    height: auto;
+    position: relative;
+    left: 0%;
+    top: 0%;
+    margin: -15% -15%;
+    border-radius: 50px;
+    content: var(--grid-img);
+  }
 }
 
-.top {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  border-bottom: var(--border) solid 5px;
-  border-radius: 50px;
-  overflow: scroll;
-}
+@media (max-width:780px){
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(1fr, 1fr);
+    grid-auto-rows: 35vh;
+  }
 
-.bottomleft {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  min-width:50%;
-  overflow: scroll;
-}
+  .top {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-bottom: var(--border) solid 5px;
+    border-radius: 50px;
+    overflow: scroll;
+    max-width: 80vw;
+  }
 
-.bottomright {
-  grid-row-start: 2;
-  grid-row-end: 3;
-  overflow: hidden;
-}
+  .bottomleft {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    min-width:50%;
+    overflow: scroll;
+    max-width: 80vw;
+  }
 
-.bottomleft, .bottomright {
-  border-top: var(--border) solid 5px;
-  border-radius: 50px;
-  margin-top: -5px;
-}
+  .bottomright {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    overflow: hidden;
+    max-width: 80vw;
+    max-height: 80vw;
+    background-color: transparent;
+    border-radius: 50%;
+  }
 
-.top, .bottomleft, .bottomright {
-  background-color: var(--bg-2);
-  text-align: center;
-  padding: 10px 25px;
-}
+  .top, .bottomleft{
+    background-color: var(--bg-2);
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 50px;
+    border-bottom: var(--border) solid;
+    border-top: var(--border) solid;
+  }
 
-.avatar {
-  width: 135%;
-  height: auto;
-  position: relative;
-  left: 0%;
-  top: 0%;
-  margin: -15% -15%;
-  border-radius: 50px;
-  content: var(--avy);
+  .grid-img {
+    width: 135%;
+    height: auto;
+    position: relative;
+    left: 0%;
+    top: 0%;
+    margin: -15% -15%;
+    border-radius: 50%;
+    content: var(--avy);
+  }
 }
-
 
 </style>
