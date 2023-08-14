@@ -48,12 +48,19 @@
    
     --border: var(--light-accent-1);
     --border-2: var(--light-accent-5);
+
+    --text-box-header: var(--light-accent-3);
+    --text-box-header-text: var(--light-accent-5);
+    --text-box: var(--light-2);
+
+    --nav: var(--light-accent-5);
     --nav-border: var(--light-accent-4);
     --nav-hover: var(--light-accent-2);
     --nav-border-hover: var(--light-accent-2);
     --nav-link: var(--light);
     --nav-link-hover: var(--light);
-    --nav-link-active: var(--light-accent-1);
+    --nav-link-active: var(--light-accent-4);
+    --nav-link-active-hover: var(--light-accent-4);
 
     --button: var(--light-accent-3);
     --button-text: var(--light-accent-5);
@@ -96,10 +103,19 @@
    
     --border: var(--dark-accent-3);
     --border-2: var(--dark-accent-5);
-    --border-3: var(--dark-accent-3);
-    --nav-border: var(--dark-accent-3);
+
+    --text-box-header: var(--dark-accent-2);
+    --text-box-header-text: var(--dark-accent-5);
+    --text-box: var(--dark-2);
+    
+    --nav: var(--dark-accent-5);
+    --nav-border: var(--dark-accent-4);
     --nav-hover: var(--dark-accent-2);
     --nav-border-hover: var(--dark-accent-2);
+    --nav-link: var(--dark);
+    --nav-link-hover: var(--dark);
+    --nav-link-active: var(--dark-accent-4);
+    --nav-link-active-hover: var(--dark-accent-4);
 
     --button: var(--dark-accent-4);
     --button-text: var(--dark-accent-1);

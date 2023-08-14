@@ -58,37 +58,35 @@ main {
 .box-header-top,
 .box-header-bottom
   {
-  background: var(--color-5);
-  color: var(--text-1);
+  background: var(--text-box-header);
+  color: var(--text-box-header-text);
 }
 
 .box-header-top h1,
 .box-header-bottom h1 {
-  color: var(--text-1);
-  background: var(--color-5);
+  background: var(--text-box-header);
+  color: var(--text-box-header-text);
 }
+
+  .box-text-top,
+  .box-text-bottom{
+    background-color: var(--text-box);
+  }
 
 /*    Navigation    */
 
 nav {
   width: 100%;
-  font-size: 1.15rem;
+  font-size: 2.5vw;
   text-align: center;
   margin-top: 2rem;
-}
-
-nav a.router-link-exact-active {
-  color: var(--link-active);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-  border-left: 4px solid var(--nav-border);
-  color: var(--link-active);
+  background-color: var(--color-5); 
+  border-radius: 50px;
+  padding: 10px;
 }
 
 nav a {
-  color: var(--link);
+  color: var(--nav-link);
   display: inline-block;
   padding: 0 1rem;
   border-left: 4px solid var(--nav-border);
@@ -96,15 +94,24 @@ nav a {
 
 nav a:hover {
   background-color: var(--nav-hover);
-  color: var(--link-hover);
+  color: var(--nav-link-hover);
   border-left: 4px solid var(--nav-border-hover);
 }
 
+nav a.router-link-exact-active {
+  color: var(--nav-link-active);
+}
+
+nav a.router-link-exact-active:hover {
+  border-left: 4px solid var(--nav-border);
+  background-color: transparent;
+  color: var(--nav-link-active-hover);
+}
 
 /*  Universal Styles */
 
 h1 {
-  color: var(--text-5);
+  color: var(--text-4);
   font-family: "Cinzel", serif;
   font-weight: 500;
   position: relative;
@@ -331,6 +338,7 @@ button:hover {
     border-left: 4px solid var(--nav-border-hover);
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
+    color: var(--nav-link-active-hover);
   }
  
 }
