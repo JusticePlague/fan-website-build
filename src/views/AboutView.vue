@@ -8,6 +8,4 @@ import TheAbout from '../components/aboutcomp/TheAbout.vue'
   </main>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

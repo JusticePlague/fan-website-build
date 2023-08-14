@@ -3,11 +3,9 @@ import TheContact from '../components/contactcomp/TheContact.vue'
 </script>
 
 <template>
-    <main>
-        <TheContact />
-    </main>
+  <main>
+    <TheContact />
+  </main>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

@@ -1,13 +1,9 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <template>
   <div class="page-header">
     <div class="img-wrap">
-      <div class="header-img">
-
-      </div>
+      <div class="header-img"></div>
     </div>
     <div class="header-title">
       <h1 class="header">Heresy</h1>
@@ -16,19 +12,17 @@
 </template>
 
 <style scoped>
-
-.page-header{
-  margin-left:auto;
-  margin-right:auto;
+.page-header {
+  margin-left: auto;
+  margin-right: auto;
   width: 70vw;
   margin-bottom: 2vh;
   border-bottom-right-radius: 50px;
   border-bottom-left-radius: 50px;
 }
-.img-wrap{
+.img-wrap {
   padding-top: 3vh;
   padding-bottom: 1.5vh;
-  
 }
 
 .header-img {
@@ -38,10 +32,9 @@
   max-width: 10vw;
   content: var(--avy);
   border-radius: 50%;
-      
 }
 
-.header-title{
+.header-title {
   font-size: 1.5rem;
   border-bottom-right-radius: 50px;
   border-bottom-left-radius: 50px;

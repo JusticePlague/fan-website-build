@@ -18,7 +18,7 @@ const router = createRouter({
       name: 'about',
       component: AboutView
     },
-    
+
     {
       path: '/todolist',
       name: 'todoList',
@@ -30,7 +30,6 @@ const router = createRouter({
       name: 'contact',
       component: ContactView
     }
-
   ]
 })
 

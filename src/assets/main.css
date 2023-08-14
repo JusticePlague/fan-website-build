@@ -5,7 +5,9 @@
 /*    Styling Here   */
 /*    Page   */
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   font-weight: normal;
@@ -21,8 +23,8 @@
 main {
   height: 50vh;
   width: 70vw;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*    Header    */
@@ -31,7 +33,7 @@ main {
   color: var(--text-5);
 }
 
-.page-header{
+.page-header {
   background: var(--color-3);
   margin-top: -5vh;
 }
@@ -39,7 +41,14 @@ main {
 /* Home Page */
 
 .colorBar {
-  background: linear-gradient(to right, var(--color-bar-1), var(--color-bar-2), var(--color-bar-3), var(--color-bar-2), var(--color-bar-1));
+  background: linear-gradient(
+    to right,
+    var(--color-bar-1),
+    var(--color-bar-2),
+    var(--color-bar-3),
+    var(--color-bar-2),
+    var(--color-bar-1)
+  );
   color: var(--color-bar-text);
   padding: 1vh;
   min-height: fit-content;
@@ -49,15 +58,14 @@ main {
   text-align: center;
   line-height: 5vh;
   margin-bottom: 1vh 0;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 5vh;
   width: 70vw;
 }
 
 .box-header-top,
-.box-header-bottom
-  {
+.box-header-bottom {
   background: var(--text-box-header);
   color: var(--text-box-header-text);
 }
@@ -68,10 +76,10 @@ main {
   color: var(--text-box-header-text);
 }
 
-  .box-text-top,
-  .box-text-bottom{
-    background-color: var(--text-box);
-  }
+.box-text-top,
+.box-text-bottom {
+  background-color: var(--text-box);
+}
 
 /*    Navigation    */
 
@@ -80,7 +88,7 @@ nav {
   font-size: 2.5vw;
   text-align: center;
   margin-top: 2rem;
-  background-color: var(--color-5); 
+  background-color: var(--color-5);
   border-radius: 50px;
   padding: 10px;
 }
@@ -112,7 +120,7 @@ nav a.router-link-exact-active:hover {
 
 h1 {
   color: var(--text-4);
-  font-family: "Cinzel", serif;
+  font-family: 'Cinzel', serif;
   font-weight: 500;
   position: relative;
   top: -10px;
@@ -121,34 +129,34 @@ h1 {
 
 h2 {
   color: var(--text-3);
-  font-family: "Parisienne", cursive;
+  font-family: 'Parisienne', cursive;
 }
 
 h3 {
   color: var(--text-4);
-  font-family: "Cinzel", serif;
+  font-family: 'Cinzel', serif;
   text-align: center;
 }
 
 h4 {
   color: var(--text-1);
-  font-family: "Parisienne", cursive;
+  font-family: 'Parisienne', cursive;
 }
 
 h5 {
   color: var(--text-4);
-  font-family: "Cinzel", serif;
+  font-family: 'Cinzel', serif;
 }
 
 h6 {
   color: var(--text-3);
-  font-family: "Parisienne", cursive;
+  font-family: 'Parisienne', cursive;
 }
 
 p {
   color: var(--text-2);
   padding: 1.2em;
-} 
+}
 
 a {
   text-decoration: none;
@@ -159,7 +167,9 @@ body {
   min-height: 100vh;
   color: var(--text-1);
   background: var(--bg);
-  transition: color 0.5s, background-color 0.5s;
+  transition:
+    color 0.5s,
+    background-color 0.5s;
   line-height: 1.6;
   font-size: 15px;
 }
@@ -238,12 +248,9 @@ button:hover {
   color: var(--text-3);
 }
 
-
-
 /*   Page resizing and Item Placement    */
 
 @media (min-width: 1024px) {
-
   body {
     display: flex;
     place-items: center;
@@ -254,17 +261,16 @@ button:hover {
     min-width: 50vw;
   }
 
-  .page-header{
+  .page-header {
     margin-top: -20vh;
   }
-  
-  .img-wrap{
-    
+
+  .img-wrap {
     padding-top: 5vh;
     padding-bottom: 1.5vh;
     background: var(--color-4);
   }
-  
+
   .header-img {
     margin-top: 2vh;
     display: block;
@@ -275,8 +281,8 @@ button:hover {
     content: var(--avy);
     border-radius: 50%;
   }
-  
-  .header-title{
+
+  .header-title {
     background-color: var(--color-1);
     font-size: 1.5rem;
     padding-top: 2vh;
@@ -286,20 +292,20 @@ button:hover {
     font-size: 1.15rem;
     text-align: left;
     display: block;
-    font-family: "Cinzel";
+    font-family: 'Cinzel';
     font-size: 16px;
     width: 15vw;
     height: 50vh;
-    position: fixed; 
-    top: -5vh; 
+    position: fixed;
+    top: -5vh;
     left: 0;
-    background-color: var(--color-5); 
+    background-color: var(--color-5);
     overflow: auto;
-    overflow-x: hidden; 
+    overflow-x: hidden;
     padding-top: 20px;
     border-bottom-right-radius: 50px;
   }
-  
+
   nav a {
     color: var(--nav-link);
     padding: 0 1vw;
@@ -308,13 +314,13 @@ button:hover {
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     margin-top: 1vh;
-    margin-left:1vh;
+    margin-left: 1vh;
     max-width: 13vw;
     display: block;
     text-decoration: none;
     text-align: center;
   }
-  
+
   nav a:hover {
     background-color: var(--nav-hover);
     color: var(--nav-link-hover);
@@ -331,7 +337,7 @@ button:hover {
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
   }
-  
+
   nav a.router-link-exact-active:hover {
     background-color: transparent;
     border: 1px solid var(--nav-border-hover);
@@ -340,24 +346,21 @@ button:hover {
     border-bottom-right-radius: 50px;
     color: var(--nav-link-active-hover);
   }
- 
 }
 
 @media (max-width: 480px) {
-
   .header {
     color: var(--text-3);
   }
 
-  .page-header{
+  .page-header {
     background: var(--color-5);
     margin-top: -5vh;
     max-height: 20vh;
     overflow: hidden;
   }
 
-  .header-title{
+  .header-title {
     display: none;
   }
-  
 }

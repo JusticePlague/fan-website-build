@@ -8,7 +8,4 @@ import TodoApp from '/src/components/todocomp/TodoApp.vue'
   </main>
 </template>
 
-<style scoped>
-
-</style>
-
+<style scoped></style>

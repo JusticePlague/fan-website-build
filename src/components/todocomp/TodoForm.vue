@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-import { useTodoListStore } from '/src/stores/todoList.js';
+import { useTodoListStore } from '/src/stores/todoList.js'
 
 const todo = ref(' ')
 const store = useTodoListStore()
@@ -18,13 +18,9 @@ function addItemAndClear(item) {
   <div>
     <form @submit.prevent="addItemAndClear(todo)">
       <input v-model="todo" type="text" />
-      <button>
-        Add 
-      </button>
+      <button>Add</button>
     </form>
   </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

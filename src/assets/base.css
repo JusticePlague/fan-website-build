@@ -1,6 +1,5 @@
 /*  Variable Declaration  */
 
-
 :root {
   /*    Color Variables    */
   /*    Light Mode    */
@@ -11,8 +10,8 @@
   --light-accent-1t: #60606080;
   --light-accent-2: #404040;
   --light-accent-2t: #40404080;
-  --light-accent-3: #0080DD;
-  --light-accent-3t: #0080DD80;
+  --light-accent-3: #0080dd;
+  --light-accent-3t: #0080dd80;
   --light-accent-4: #dd0000;
   --light-accent-4t: #dd000080;
   --light-accent-5: #000000;
@@ -35,8 +34,8 @@
 
   /* Universal Variables */
   --section-gap: 160px;
-  --avy: url("https://cdn2.picryl.com/photo/2009/10/15/moon-false-color-mosaic-2e13f9-1024.jpg");
-  --grid-img: url("https://cdn2.picryl.com/photo/2009/10/15/moon-false-color-mosaic-2e13f9-1024.jpg");
+  --avy: url('https://cdn2.picryl.com/photo/2009/10/15/moon-false-color-mosaic-2e13f9-1024.jpg');
+  --grid-img: url('https://cdn2.picryl.com/photo/2009/10/15/moon-false-color-mosaic-2e13f9-1024.jpg');
 }
 
 /*  Variables Based on User Preference  */
@@ -45,7 +44,7 @@
   :root {
     --bg: var(--light);
     --bg-2: var(--light-2);
-   
+
     --border: var(--light-accent-1);
     --border-2: var(--light-accent-5);
 
@@ -64,8 +63,8 @@
 
     --button: var(--light-accent-3);
     --button-text: var(--light-accent-5);
-    --button-hover: var( --light-accent-5);
-    --button-text-hover: var(--light-accent-3);
+    --button-hover: var(--light-accent-5);
+    --button-text-hover: var(--light-accent-4);
 
     --text-1: var(--light-accent-1);
     --text-2: var(--light-accent-2);
@@ -100,14 +99,14 @@
   :root {
     --bg: var(--dark);
     --bg-2: var(--dark-2);
-   
+
     --border: var(--dark-accent-3);
     --border-2: var(--dark-accent-5);
 
     --text-box-header: var(--dark-accent-2);
     --text-box-header-text: var(--dark-accent-5);
     --text-box: var(--dark-2);
-    
+
     --nav: var(--dark-accent-5);
     --nav-border: var(--dark-accent-4);
     --nav-hover: var(--dark-accent-2);
@@ -117,9 +116,9 @@
     --nav-link-active: var(--dark-accent-4);
     --nav-link-active-hover: var(--dark-accent-4);
 
-    --button: var(--dark-accent-4);
+    --button: var(--dark-accent-3t);
     --button-text: var(--dark-accent-1);
-    --button-hover: var(--dark-accent-2);
+    --button-hover: var(--dark-accent-5);
     --button-text-hover: var(--dark-accent-4);
 
     --text-1: var(--dark-accent-1);
@@ -149,4 +148,3 @@
     --color-bar-text: var(--light-accent-5);
   }
 }
-

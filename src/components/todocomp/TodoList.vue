@@ -1,12 +1,10 @@
 <script setup>
-
 import { useTodoListStore } from '/src/stores/todoList.js'
 import { storeToRefs } from 'pinia'
 
 const store = useTodoListStore()
 const { todoList } = storeToRefs(store)
 const { toggleCompleted, deleteTodo } = store
-
 </script>
 
 <template>
@@ -16,17 +14,11 @@ const { toggleCompleted, deleteTodo } = store
         <span :class="{ completed: todo.completed }">
           {{ todo.item }}
         </span>
-        <span @click.stop="toggleCompleted(todo.id)">
-          &#10004;
-        </span>
-        <span @click="deleteTodo(todo.id)" class="x">
-          &#10060;
-        </span>
+        <span @click.stop="toggleCompleted(todo.id)"> &#10004; </span>
+        <span @click="deleteTodo(todo.id)" class="x"> &#10060; </span>
       </div>
     </div>
   </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

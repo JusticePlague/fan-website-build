@@ -26,7 +26,8 @@ export default {
       });
       const result = await response.json();
       if (result.success) {
-        console.log(result);
+        console.log(result)
+        alert("you did it!");
       }
     },
   },
@@ -34,32 +35,68 @@ export default {
 </script>
 
 <template>
-    
-
   <div class="banners">
     <h1 class="colorBar">SO LONG AND GOODNIGHTTTTT</h1>
   </div>
-  
-    <main>
-      <form @submit.prevent="submitForm">
-        <div class="name-input">
-            <input type="text" name="name" v-model="name"/>
-        </div>
 
-        <div class="email-input">
-            <input type="email" name="email"  v-model="email"/> 
-        </div>
+  <main>
+    <form @submit.prevent="submitForm">
+      <div class="name-input">
+        <label for="name">Name</label>
+        <input type="text" name="name" v-model="name" />
+      </div>
 
-        <div class="message-input">
-            <textarea name="message" v-model="message"></textarea>
-        </div>
-      
-      
+      <div class="email-input">
+        <label for="email">Email</label>
+        <input type="email" name="email" v-model="email" />
+      </div>
+
+      <div class="message-input">
+        <label for="message">Send me a note</label>
+        <br />
+        <textarea name="message" v-model="message"></textarea>
+      </div>
+
+      <div class="sub-button">
         <button type="submit">Send Message</button>
-      </form>
-    </main>
+      </div>
+    </form>
+  </main>
 </template>
   
 <style scoped>
+form {
+  background: var(--bg-2);
+  padding: 5vh;
+  min-width: fit-content;
+  border: var(--border) solid 5px;
+  border-radius: 50px;
+}
 
+input {
+  padding: 10px;
+  width: 50%;
+  min-width: 200px;
+  max-width: 500px;
+}
+
+textarea {
+  padding: 10px;
+  width: 50%;
+  min-width: 200px;
+  max-width: 500px;
+  height: 15vh;
+}
+
+button {
+  padding: 10px;
+  margin: 1vh;
+}
+
+label {
+  color: var(--text-3);
+  display: block;
+  font-weight: bold;
+  margin-bottom: -2vh;
+}
 </style>
