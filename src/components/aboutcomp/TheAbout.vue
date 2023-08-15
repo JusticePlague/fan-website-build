@@ -78,10 +78,11 @@ import '/src/assets/base.css'
   grid-row-start: 2;
   grid-row-end: 3;
   grid-column-start: 3;
-  grid-column-end: 4;
+  grid-column-end: 3;
   overflow: hidden;
   max-width: 300px;
-  align-self: grid-column-end;
+  margin-left:auto;
+  margin-right:none;
 }
 
 .bottomleft,
@@ -124,6 +125,8 @@ import '/src/assets/base.css'
   .top {
     grid-row-start: 1;
     grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
     border-bottom: var(--border) solid 5px;
     border-radius: 50px;
     overflow: scroll;
@@ -133,6 +136,8 @@ import '/src/assets/base.css'
   .bottomleft {
     grid-row-start: 3;
     grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
     min-width: 50%;
     overflow: scroll;
     max-width: 80vw;
@@ -141,6 +146,8 @@ import '/src/assets/base.css'
   .bottomright {
     grid-row-start: 2;
     grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
     overflow: hidden;
     max-width: 80vw;
     max-height: 80vw;
@@ -171,5 +178,15 @@ import '/src/assets/base.css'
     border-radius: 50%;
     content: var(--avy);
   }
+}
+
+@media (min-width:1200px){
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 25vh;
+    grid-auto-columns: 15vw;
+  }
+  
 }
 </style>

@@ -166,7 +166,6 @@
 
 .lefttop,
 .righttop {
-  border-bottom: var(--border) solid 5px;
   border-radius: 50px;
   margin-top: -1vh;
 }
@@ -185,7 +184,6 @@
 
 .box-header-top,
 .box-header-bottom {
-  background: var(--text-box-header);
   padding-top: 5px;
 }
 
@@ -201,7 +199,6 @@
 }
 .box-header-bottom h1 {
   margin-top: 0.5vh;
-  border-top: var(--border) solid 5px;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
 }
@@ -209,6 +206,11 @@
 .box-header-bottom h1,
 .box-header-top h1 {
   margin-bottom: 0vh;
+}
+
+.box-header-top,
+.box-header-bottom {
+  background: var(--text-box-header);
 }
 
 .box-text-top,
@@ -222,6 +224,18 @@
   overflow: scroll;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
+}
+
+@media (min-width: 681px) {
+  .lefttop,
+  .righttop {
+  border-bottom: var(--border) solid 5px;
+  }
+
+  .box-header-bottom h1 {
+    border-top: var(--border) solid 5px;
+  }
+
 }
 
 @media (max-width: 680px) {
