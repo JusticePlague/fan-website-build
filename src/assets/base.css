@@ -2,6 +2,15 @@
 
 :root {
   /*    Color Variables    */
+
+  /*  Global  */
+  --alert-text: #fff;
+  --alert-bg: #dd0000;
+  --alert-button: #fff;
+  --alert-button-text:#000;
+  --alert-button-hover: #000;
+  --alert-button-text-hover:#dd0000;
+
   /*    Light Mode    */
   --light: #ffee91;
   --light-2: #fffbbf;
@@ -91,6 +100,8 @@
     --color-bar-2: var(--light-accent-2);
     --color-bar-3: var(--light-accent-5);
     --color-bar-text: var(--dark-accent-5);
+
+
   }
 }
 
@@ -146,5 +157,6 @@
     --color-bar-2: var(--dark-accent-4);
     --color-bar-3: var(--dark-accent-3);
     --color-bar-text: var(--light-accent-5);
+
   }
 }

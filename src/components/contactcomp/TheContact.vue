@@ -9,6 +9,7 @@ export default {
       name: '',
       email: '',
       message: '',
+      alert: null,
     };
   },
   methods: {
@@ -29,18 +30,28 @@ export default {
       const result = await response.json();
       if (result.success) {
         console.log(result)
-        alert("you did it!")
-        this.$refs.contactForm.reset();
+        //alert("you did it!")
+        this.alert=alert
+        this.reset()
       }
+    },
+    async reset() {
+      this.name = '';
+      this.email = '';
+      this.message = '';
     },
   },
 };
 </script>
 
 <template>
-  <TheAlert v-if="alert" />
   <div class="banners">
     <h1 class="colorBar">SO LONG AND GOODNIGHTTTTT</h1>
+  </div>
+
+  <div class="alerting" v-if="alert">
+    <TheAlert />
+    <button @click="alert = null">Close</button>
   </div>
 
   <main>
@@ -62,6 +73,7 @@ export default {
       </div>
 
       <div class="sub-button">
+        <button @click="reset">Cancel</button>
         <button type="submit">Send Message</button>
       </div>
     </form>
@@ -103,4 +115,27 @@ label {
   font-weight: bold;
   margin-bottom: -2vh;
 }
+
+.alerting {
+  background: var(--alert-bg);
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  padding-top: 20px;
+  border-radius: 50px;
+  border: var(--border) solid 5px;
+}
+
+.alerting button{
+  margin-bottom: 1vh;
+  margin-left:auto;
+  margin-right:auto;
+  color: var(--alert-button-text);
+  background: var(--alert-button);
+}
+
+.alerting button:hover{
+  background: var(--alert-button-hover);
+  color: var(--alert-button-text-hover);
+}
+
 </style>
