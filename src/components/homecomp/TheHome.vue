@@ -229,13 +229,12 @@
 @media (min-width: 681px) {
   .lefttop,
   .righttop {
-  border-bottom: var(--border) solid 5px;
+    border-bottom: var(--border) solid 5px;
   }
 
   .box-header-bottom h1 {
     border-top: var(--border) solid 5px;
   }
-
 }
 
 @media (max-width: 680px) {

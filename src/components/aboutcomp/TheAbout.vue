@@ -1,5 +1,4 @@
 <script setup>
-import '/src/assets/base.css'
 </script>
 
 <template>
@@ -81,8 +80,8 @@ import '/src/assets/base.css'
   grid-column-end: 3;
   overflow: hidden;
   max-width: 300px;
-  margin-left:auto;
-  margin-right:none;
+  margin-left: auto;
+  margin-right: none;
 }
 
 .bottomleft,
@@ -180,13 +179,12 @@ import '/src/assets/base.css'
   }
 }
 
-@media (min-width:1200px){
+@media (min-width: 1200px) {
   .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 25vh;
     grid-auto-columns: 15vw;
   }
-  
 }
 </style>

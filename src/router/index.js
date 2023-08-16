@@ -28,7 +28,12 @@ const router = createRouter({
     {
       path: '/contact',
       name: 'contact',
-      component: ContactView
+      component: ContactView,
+      children: [
+        {
+          path: ':modal'
+        }
+      ]
     }
   ]
 })

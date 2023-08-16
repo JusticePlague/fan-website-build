@@ -1,4 +1,6 @@
 <script>
+import TheAlert from '/src/components/modalcomp/TheAlert.vue'
+
 const WEB3FORMS_ACCESS_KEY = "31ad27a4-5743-4ac1-975b-1581dc702cf2";
 
 export default {
@@ -36,6 +38,7 @@ export default {
 </script>
 
 <template>
+  <TheAlert v-if="alert" />
   <div class="banners">
     <h1 class="colorBar">SO LONG AND GOODNIGHTTTTT</h1>
   </div>
