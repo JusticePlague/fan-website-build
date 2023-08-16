@@ -27,7 +27,8 @@ export default {
       const result = await response.json();
       if (result.success) {
         console.log(result)
-        alert("you did it!");
+        alert("you did it!")
+        this.$refs.contactForm.reset();
       }
     },
   },
@@ -40,7 +41,7 @@ export default {
   </div>
 
   <main>
-    <form @submit.prevent="submitForm">
+    <form ref="contactForm" @submit.prevent="submitForm">
       <div class="name-input">
         <label for="name">Name</label>
         <input type="text" name="name" placeholder="Name" v-model="name" required/>
