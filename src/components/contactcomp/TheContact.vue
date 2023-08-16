@@ -4,9 +4,9 @@ const WEB3FORMS_ACCESS_KEY = "31ad27a4-5743-4ac1-975b-1581dc702cf2";
 export default {
   data() {
     return {
-      name: "Enter Name Here",
-      email: "Enter Email Here",
-      message: "How can I help you?",
+      name: '',
+      email: '',
+      message: '',
     };
   },
   methods: {
@@ -43,18 +43,18 @@ export default {
     <form @submit.prevent="submitForm">
       <div class="name-input">
         <label for="name">Name</label>
-        <input type="text" name="name" v-model="name" />
+        <input type="text" name="name" placeholder="Name" v-model="name" required/>
       </div>
 
       <div class="email-input">
         <label for="email">Email</label>
-        <input type="email" name="email" v-model="email" />
+        <input type="email" name="email" placeholder="Email" v-model="email" required/>
       </div>
 
       <div class="message-input">
         <label for="message">Send me a note</label>
         <br />
-        <textarea name="message" v-model="message"></textarea>
+        <textarea name="message" v-model="message" placeholder="How can I help you?" required minlength="10"></textarea>
       </div>
 
       <div class="sub-button">
