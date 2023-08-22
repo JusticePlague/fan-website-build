@@ -3,7 +3,7 @@
       {
         "id": 100,
         "name": "General Zod",
-        "full-name": "Dru-Zod",
+        "fullname": "Dru-Zod",
         "alignment": "hero/villian",
         "description": "Find your new feline friend at this event.",
         "short-bio": "A Snippet about them",
@@ -12,7 +12,7 @@
       {
         "id": 101,
         "name": "Superman",
-        "full-name": "Clark Kent",
+        "fullname": "Clark Kent",
         "alignment": "hero/villian",
         "description": "Find your new feline friend at this event.",
         "short-bio": "A Snippet about them",
@@ -21,7 +21,7 @@
       {
         "id": 102,
         "name": "Batman",
-        "full-name": "Bruce Wayne",
+        "fullname": "Bruce Wayne",
         "alignment": "hero/villian",
         "description": "Find your new feline friend at this event.",
         "short-bio": "A Snippet about them",
@@ -30,7 +30,7 @@
       {
         "id": 103,
         "name": "Deathstroke",
-        "full-name": "Slade Wilson",
+        "fullname": "Slade Wilson",
         "alignment": "hero/villian",
         "description": "Find your new feline friend at this event.",
         "short-bio": "A Snippet about them",
@@ -39,7 +39,7 @@
       {
         "id": 104,
         "name": "Lex Luthor",
-        "full-name": "Alexander Luthor",
+        "fullname": "Alexander Luthor",
         "alignment": "hero/villian",
         "description": "Find your new feline friend at this event.",
         "short-bio": "A Snippet about them",
@@ -48,7 +48,7 @@
       {
         "id": 105,
         "name": "Name",
-        "full-name": "Full Name",
+        "fullname": "Full Name",
         "alignment": "hero/villian",
         "description": "Find your new feline friend at this event.",
         "short-bio": "A Snippet about them",
