@@ -1,230 +1,293 @@
-<script setup></script>
+<script>
+import ColorBar from '/src/components/TheColorBar.vue'
+
+export default {
+  name: 'TheHome',
+  components: {
+    ColorBar
+  },
+  data() {
+    return {
+      title: "Hey, I'm Sam! \nWelcome to my page."
+    }
+  }
+}
+</script>
 
 <template>
-  <div class="banners">
-    <h1 class="colorBar">SO LONG AND GOODNIGHTTTTT</h1>
-  </div>
+  <ColorBar :title="title" />
 
   <main>
-    <div class="main flex col-12" id="main">
-      <div class="leftcontainer col-6">
-        <div class="left" id="left">
-          <div class="lefttop">
-            <div class="box-header-top">
-              <h1>Title Here</h1>
-            </div>
+    <div class="main flex col-12" id="flex">
 
-            <div class="box-text-top">
-              <h1>Hey,</h1>
-              <p>
-                Just been playing around.<br />
-                Scroll <br />
-                Scroll <br />
-                Scroll <br />
-                Scroll <br />
-                Scroll <br />
-              </p>
-            </div>
-          </div>
+      <div class="lefttop" id="one">
+        <div class="box-header-top">
+          <h1>One</h1>
+        </div>
 
-          <div class="leftbottom">
-            <div class="box-header-bottom">
-              <h1>Title Here</h1>
-            </div>
-
-            <div class="box-text-bottom">
-              TESTTTTTTTT
-
-              <h1>Heading One</h1>
-              <h2>Heading Two</h2>
-              <h3>Heading Three</h3>
-              <h4>Heading Four</h4>
-              <h5>Heading Five</h5>
-              <h6>Heading Six</h6>
-              <p>Paragraph</p>
-              <br />
-              <p>
-                just a buncha textjust a buncha textjust a buncha textjust a buncha textjust a
-                buncha textjust a buncha textjust a buncha textjust a buncha textjust a buncha
-                textjust a buncha textjust a buncha textjust a buncha textjust a buncha textjust a
-                buncha textjust a buncha textjust a buncha textjust a buncha textjust a buncha
-                textjust a buncha textjust a buncha textjust a buncha textjust a buncha textjust a
-                buncha textjust a buncha textjust a buncha textjust a buncha textjust a buncha
-                textjust a buncha textjust a buncha textjust a buncha textjust a buncha textjust a
-                buncha textjust a buncha textjust a buncha textjust a buncha textjust a buncha
-                textjust a buncha textjust a buncha textjust a buncha textjust a buncha textjust a
-                buncha textjust a buncha textjust a buncha textjust a buncha textjust a buncha
-                textjust a buncha textjust a buncha textjust a buncha textjust a buncha textjust a
-                buncha textjust a buncha textjust a buncha textjust a buncha textjust a buncha
-                textjust a buncha textjust a buncha textjust a buncha textjust a buncha textjust a
-                buncha textjust a buncha textjust a buncha textjust a buncha textjust a buncha
-                textjust a buncha textjust a buncha textjust a buncha textjust a buncha textjust a
-                buncha textjust a buncha textjust a buncha textjust a buncha textjust a buncha
-                textjust a buncha textjust a buncha textjust a buncha textjust a buncha textjust a
-                buncha textjust a buncha textjust a buncha textjust a buncha textjust a buncha
-                textjust a buncha textjust a buncha textjust a buncha textjust a buncha textjust a
-                buncha textjust a buncha textjust a buncha textjust a buncha textjust a buncha
-                textjust a buncha textjust a buncha textjust a buncha textjust a buncha textjust a
-                buncha textjust a buncha textjust a buncha textjust a buncha textjust a buncha
-                textjust a buncha textjust a buncha textjust a buncha textjust a buncha textjust a
-                buncha textjust a buncha textjust a buncha textjust a buncha textjust a buncha
-                textjust a buncha textjust a buncha textjust a buncha textjust a buncha textjust a
-                buncha textjust a buncha textjust a buncha textjust a buncha textjust a buncha
-                textjust a buncha textjust a buncha textjust a buncha textjust a buncha textjust a
-                buncha textjust a buncha textjust a buncha textjust a buncha textjust a buncha
-                textjust a buncha textjust a buncha textjust a buncha textjust a buncha textjust a
-                buncha textjust a buncha textjust a buncha textjust a buncha textjust a buncha
-                textjust a buncha textjust a buncha textjust a buncha textjust a buncha textjust a
-                buncha textjust a buncha textjust a buncha textjust a buncha textjust a buncha
-                textjust a buncha textjust a buncha textjust a buncha textjust a buncha textjust a
-                buncha textjust a buncha textjust a buncha textjust a buncha textjust a buncha
-                textjust a buncha textjust a buncha textjust a buncha textjust a buncha textjust a
-                buncha textjust a buncha textjust a buncha textjust a buncha textjust a buncha
-                textjust a buncha textjust a buncha textjust a buncha textjust a buncha textjust a
-                buncha textjust a buncha textjust a buncha textjust a buncha textjust a buncha
-                textjust a buncha textjust a buncha textjust a buncha textjust a buncha textjust a
-                buncha textjust a buncha textjust a buncha textjust a buncha textjust a buncha
-                textjust a buncha textjust a buncha textjust a buncha textjust a buncha textjust a
-                buncha textjust a buncha textjust a buncha textjust a buncha text
-              </p>
-            </div>
-          </div>
+        <div class="box-text-top">
+          <h1>Testing Heading One</h1>
+          <h2>Testing Heading Two</h2>
+          <h3>Testing Heading Three</h3>
+          <h4>Testing Heading Four</h4>
+          <h5>Testing Heading Five</h5>
+          <h6>Testing Heading Six</h6>
+          <p>Testing Paragraph</p>
+          <h1>Testing Heading One</h1>
+          <h2>Testing Heading Two</h2>
+          <h3>Testing Heading Three</h3>
+          <h4>Testing Heading Four</h4>
+          <h5>Testing Heading Five</h5>
+          <h6>Testing Heading Six</h6>
+          <p>Testing Paragraph</p>
+          <h1>Testing Heading One</h1>
+          <h2>Testing Heading Two</h2>
+          <h3>Testing Heading Three</h3>
+          <h4>Testing Heading Four</h4>
+          <h5>Testing Heading Five</h5>
+          <h6>Testing Heading Six</h6>
+          <p>Testing Paragraph</p>
+          <h1>Testing Heading One</h1>
+          <h2>Testing Heading Two</h2>
+          <h3>Testing Heading Three</h3>
+          <h4>Testing Heading Four</h4>
+          <h5>Testing Heading Five</h5>
+          <h6>Testing Heading Six</h6>
+          <p>Testing Paragraph</p>
         </div>
       </div>
 
-      <div class="rightcontainer col-3">
-        <div class="right">
-          <div class="righttop">
-            <div class="box-header-top">
-              <h1>Title Here</h1>
-            </div>
+      <div class="leftbottom" id="four">
+        
+        <div class="box-header-bottom">
+          <h1>Two</h1>
+        </div>
 
-            <div class="box-text-top">
-              <h1>Bro</h1>
-              <h2>Testing</h2>
-              <h3>Testing</h3>
-              <h4>Testing</h4>
-              <h5>Testing</h5>
-              <h6>Testing</h6>
-              <p>Testing</p>
-            </div>
-          </div>
+        <div class="box-text-bottom4">
+          <h1>Testing Heading One</h1>
+          <h2>Testing Heading Two</h2>
+          <h3>Testing Heading Three</h3>
+          <h4>Testing Heading Four</h4>
+          <h5>Testing Heading Five</h5>
+          <h6>Testing Heading Six</h6>
+          <p>Testing Paragraph</p>
+          <h1>Testing Heading One</h1>
+          <h2>Testing Heading Two</h2>
+          <h3>Testing Heading Three</h3>
+          <h4>Testing Heading Four</h4>
+          <h5>Testing Heading Five</h5>
+          <h6>Testing Heading Six</h6>
+          <p>Testing Paragraph</p>
+          <h1>Testing Heading One</h1>
+          <h2>Testing Heading Two</h2>
+          <h3>Testing Heading Three</h3>
+          <h4>Testing Heading Four</h4>
+          <h5>Testing Heading Five</h5>
+          <h6>Testing Heading Six</h6>
+          <p>Testing Paragraph</p>
+          <h1>Testing Heading One</h1>
+          <h2>Testing Heading Two</h2>
+          <h3>Testing Heading Three</h3>
+          <h4>Testing Heading Four</h4>
+          <h5>Testing Heading Five</h5>
+          <h6>Testing Heading Six</h6>
+          <p>Testing Paragraph</p>
+        </div>
 
-          <div class="rightbottom">
-            <div class="box-header-bottom">
-              <h1>Title Here</h1>
-            </div>
+      </div>
 
-            <div class="box-text-bottom">TESTTTTTTTT</div>
-          </div>
+      <div class="righttop" id="two">
+
+        <div class="box-header-top">
+          
+          <h1>
+            Four
+          </h1>
+
+        </div>
+
+        <div class="box-text-top">
+          <h1>Testing Heading One</h1>
+          <h2>Testing Heading Two</h2>
+          <h3>Testing Heading Three</h3>
+          <h4>Testing Heading Four</h4>
+          <h5>Testing Heading Five</h5>
+          <h6>Testing Heading Six</h6>
+          <p>Testing Paragraph</p>
+          <h1>Testing Heading One</h1>
+          <h2>Testing Heading Two</h2>
+          <h3>Testing Heading Three</h3>
+          <h4>Testing Heading Four</h4>
+          <h5>Testing Heading Five</h5>
+          <h6>Testing Heading Six</h6>
+          <p>Testing Paragraph</p>
+          <h1>Testing Heading One</h1>
+          <h2>Testing Heading Two</h2>
+          <h3>Testing Heading Three</h3>
+          <h4>Testing Heading Four</h4>
+          <h5>Testing Heading Five</h5>
+          <h6>Testing Heading Six</h6>
+          <p>Testing Paragraph</p>
+          <h1>Testing Heading One</h1>
+          <h2>Testing Heading Two</h2>
+          <h3>Testing Heading Three</h3>
+          <h4>Testing Heading Four</h4>
+          <h5>Testing Heading Five</h5>
+          <h6>Testing Heading Six</h6>
+          <p>Testing Paragraph</p>
+        </div>
+
+      </div>
+
+      <div class="rightbottom" id="three">
+        <div class="box-header-bottom">
+          <h1>
+            Three
+          </h1>
+        </div>
+
+        <div class="box-text-bottom">
+          <h1>Testing Heading One</h1>
+          <h2>Testing Heading Two</h2>
+          <h3>Testing Heading Three</h3>
+          <h4>Testing Heading Four</h4>
+          <h5>Testing Heading Five</h5>
+          <h6>Testing Heading Six</h6>
+          <p>Testing Paragraph</p>
+          <h1>Testing Heading One</h1>
+          <h2>Testing Heading Two</h2>
+          <h3>Testing Heading Three</h3>
+          <h4>Testing Heading Four</h4>
+          <h5>Testing Heading Five</h5>
+          <h6>Testing Heading Six</h6>
+          <p>Testing Paragraph</p>
+          <h1>Testing Heading One</h1>
+          <h2>Testing Heading Two</h2>
+          <h3>Testing Heading Three</h3>
+          <h4>Testing Heading Four</h4>
+          <h5>Testing Heading Five</h5>
+          <h6>Testing Heading Six</h6>
+          <p>Testing Paragraph</p>
+          <h1>Testing Heading One</h1>
+          <h2>Testing Heading Two</h2>
+          <h3>Testing Heading Three</h3>
+          <h4>Testing Heading Four</h4>
+          <h5>Testing Heading Five</h5>
+          <h6>Testing Heading Six</h6>
+          <p>Testing Paragraph</p>
         </div>
       </div>
+
     </div>
   </main>
 </template>
 
 <style scoped>
-/*Divs*/
+/*  List  */
 
-.flex {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-top: -3vh;
-  max-width: fit-content;
-}
+/*  Divs  */
 
-.col-3 {
-  width: 47%;
-}
+  #flex {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-width: fit-content;
+    width: 100%;
+  }
 
-.col-6 {
-  width: 47%;
-}
+  #one {
+    order: 1;
+  }
 
-.col-12 {
-  width: 100%;
-  margin-top: 1vh;
-}
+ #two {
+   order: 2;
+  }
 
-.leftcontainer {
-  order: 0;
-}
+ #three {
+   order: 3;
+  }  
 
-.rightcontainer {
-  order: 2;
-}
+ #four {
+   order: 4;
+  }
 
-.left,
-.right {
-  background-color: transparent;
-  height: 50vh;
-  text-align: center;
-  margin: auto;
-}
+  #one,
+  #two,
+  #three,
+  #four{
+    width: 47%;
+  }
+  
 
-.lefttop,
-.righttop {
-  border-radius: 50px;
-  margin-top: -1vh;
-}
+  .lefttop,
+  .righttop {
+    border-radius: 50px;
+    margin-top: -1vh;
+  }
+  
 
-.leftbottom,
-.rightbottom {
-  margin-top: 0;
-}
+  .leftbottom,
+  .rightbottom {
+    margin-top: 0;
+  }
 
-.box-header-top,
-.box-header-top h1 {
-  margin: 1vh 0 0 0;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-}
+  .box-header-top,
+  .box-header-top h1 {
+    margin: 1vh 0 0 0;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
 
-.box-header-top,
-.box-header-bottom {
-  padding-top: 5px;
-}
+  .box-header-top,
+  .box-header-bottom {
+    padding-top: 5px;
+  }
 
-.box-header-bottom {
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-}
+  .box-header-bottom {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
 
-.box-header-top h1 {
-  margin-top: 1vh;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-}
-.box-header-bottom h1 {
-  margin-top: 0.5vh;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-}
+  .box-header-top h1 {
+    margin-top: 1vh;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    font-size: 1.5rem;
 
-.box-header-bottom h1,
-.box-header-top h1 {
-  margin-bottom: 0vh;
-}
+  }
+  .box-header-bottom h1 {
+    margin-top: 0.5vh;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    font-size: 1.5rem;
+  }
 
-.box-header-top,
-.box-header-bottom {
-  background: var(--text-box-header);
-}
+  .box-header-bottom h1,
+  .box-header-top h1 {
+    margin-bottom: 0vh;
+  }
 
-.box-text-top,
-.box-text-bottom {
-  height: 250px;
-  min-height: 30vh;
-  max-height: 50vh;
-  margin: auto;
-  text-align: center;
-  padding: 10px 25px;
-  overflow: scroll;
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
-}
+  .box-header-top,
+  .box-header-bottom {
+    background: var(--text-box-header);
+  }
+
+  .box-text-top,
+  .box-text-bottom {
+    height: 250px;
+    min-height: 30vh;
+    max-height: 50vh;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    overflow: scroll;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+
+/*Resizing*/
 
 @media (min-width: 681px) {
   .lefttop,
@@ -246,8 +309,15 @@
     max-width: fit-content;
   }
 
-  .leftcontainer,
-  .rightcontainer {
+
+
+  .right {
+    margin-top: auto;
+  }
+
+  #flex {
+    display: flex; 
+    flex-direction: column;
     margin-right: auto;
     margin-left: auto;
     background-color: transparent;
@@ -257,30 +327,35 @@
     display: block;
   }
 
-  .right {
-    margin-top: auto;
+  #one {
+     order: 1;
   }
 
-  .col-6,
-  .col-3 {
-    display: inline-block;
+  #two {
+    order: 2;
   }
 
-  .col-6,
-  .col-3 {
-    width: 100%;
+  #three {
+    order: 3;
   }
+
+  #four {
+    order: 4;
+ }
+
+
+ #one,
+ #two,
+ #three,
+ #four{
+  width: 100%;
+ }
 
   .lefttop,
   .righttop,
   .leftbottom,
   .rightbottom {
     border-radius: 50px;
-  }
-
-  .box-header-bottom,
-  .box-header-bottom h1 {
-    margin-top: 1vh;
   }
 
   .box-text-top,
@@ -296,22 +371,12 @@
     border-bottom: var(--border) solid 5px;
   }
 
-  .leftbottom,
-  .rightbottom {
-    margin-top: 0;
-  }
-
   .box-header-bottom,
   .box-header-top {
     padding-top: 5px;
     border-top: var(--border) solid 5px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
-    margin-top: -0.5vh;
-  }
-
-  .right {
-    margin-top: -1.5vh;
   }
 
   .box-header-top h1,

@@ -1,0 +1,58 @@
+{
+    "characters": [
+      {
+        "id": 100,
+        "name": "General Zod",
+        "full-name": "Dru-Zod",
+        "alignment": "hero/villian",
+        "description": "Find your new feline friend at this event.",
+        "short-bio": "A Snippet about them",
+        "location": "City they reside in"
+      },
+      {
+        "id": 101,
+        "name": "Superman",
+        "full-name": "Clark Kent",
+        "alignment": "hero/villian",
+        "description": "Find your new feline friend at this event.",
+        "short-bio": "A Snippet about them",
+        "location": "City they reside in"
+      },
+      {
+        "id": 102,
+        "name": "Batman",
+        "full-name": "Bruce Wayne",
+        "alignment": "hero/villian",
+        "description": "Find your new feline friend at this event.",
+        "short-bio": "A Snippet about them",
+        "location": "City they reside in"
+      },
+      {
+        "id": 103,
+        "name": "Deathstroke",
+        "full-name": "Slade Wilson",
+        "alignment": "hero/villian",
+        "description": "Find your new feline friend at this event.",
+        "short-bio": "A Snippet about them",
+        "location": "City they reside in"
+      },
+      {
+        "id": 104,
+        "name": "Lex Luthor",
+        "full-name": "Alexander Luthor",
+        "alignment": "hero/villian",
+        "description": "Find your new feline friend at this event.",
+        "short-bio": "A Snippet about them",
+        "location": "City they reside in"
+      },
+      {
+        "id": 105,
+        "name": "Name",
+        "full-name": "Full Name",
+        "alignment": "hero/villian",
+        "description": "Find your new feline friend at this event.",
+        "short-bio": "A Snippet about them",
+        "location": "City they reside in"
+      }
+    ]
+  }

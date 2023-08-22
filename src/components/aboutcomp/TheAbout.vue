@@ -1,10 +1,21 @@
-<script setup>
+<script>
+import ColorBar from '/src/components/TheColorBar.vue'
+
+export default {
+  name: 'TheHome',
+  components: {
+    ColorBar
+  },
+  data() {
+    return {
+      title: "Hey, I'm Sam! \nWelcome to my page."
+    }
+  }
+}
 </script>
 
 <template>
-  <div class="banners">
-    <h1 class="colorBar">SO LONG AND GOODNIGHTTTTT</h1>
-  </div>
+  <ColorBar :title="title" />
   <main>
     <div class="grid">
       <div class="top">
