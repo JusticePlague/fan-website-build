@@ -6,7 +6,7 @@
         "fullname": "Dru-Zod",
         "alignment": "hero/villian",
         "description": "Find your new feline friend at this event.",
-        "short-bio": "A Snippet about them",
+        "shortbio": "A Snippet about them",
         "location": "City they reside in"
       },
       {
@@ -15,7 +15,7 @@
         "fullname": "Clark Kent",
         "alignment": "hero/villian",
         "description": "Find your new feline friend at this event.",
-        "short-bio": "A Snippet about them",
+        "shortbio": "A Snippet about them",
         "location": "City they reside in"
       },
       {
@@ -24,7 +24,7 @@
         "fullname": "Bruce Wayne",
         "alignment": "hero/villian",
         "description": "Find your new feline friend at this event.",
-        "short-bio": "A Snippet about them",
+        "shortbio": "A Snippet about them",
         "location": "City they reside in"
       },
       {
@@ -33,7 +33,7 @@
         "fullname": "Slade Wilson",
         "alignment": "hero/villian",
         "description": "Find your new feline friend at this event.",
-        "short-bio": "A Snippet about them",
+        "shortbio": "A Snippet about them",
         "location": "City they reside in"
       },
       {
@@ -42,7 +42,7 @@
         "fullname": "Alexander Luthor",
         "alignment": "hero/villian",
         "description": "Find your new feline friend at this event.",
-        "short-bio": "A Snippet about them",
+        "shortbio": "A Snippet about them",
         "location": "City they reside in"
       },
       {
@@ -51,7 +51,7 @@
         "fullname": "Full Name",
         "alignment": "hero/villian",
         "description": "Find your new feline friend at this event.",
-        "short-bio": "A Snippet about them",
+        "shortbio": "A Snippet about them",
         "location": "City they reside in"
       }
     ]
