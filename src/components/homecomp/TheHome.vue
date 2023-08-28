@@ -63,7 +63,7 @@ export default {
           <h1>Two</h1>
         </div>
 
-        <div class="box-text-bottom4">
+        <div class="box-text-bottom">
           <h1>Testing Heading One</h1>
           <h2>Testing Heading Two</h2>
           <h3>Testing Heading Three</h3>
@@ -219,7 +219,6 @@ export default {
   #four{
     width: 47%;
   }
-  
 
   .lefttop,
   .righttop {

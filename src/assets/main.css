@@ -263,12 +263,12 @@ button:hover {
 
   .page-header {
     margin-top: -20vh;
+    background: var(--color-2);
   }
 
   .img-wrap {
     padding-top: 5vh;
     padding-bottom: 1.5vh;
-    background: var(--color-4);
   }
 
   .header-img {
@@ -283,7 +283,6 @@ button:hover {
   }
 
   .header-title {
-    background-color: var(--color-1);
     font-size: 1.5rem;
     padding-top: 2vh;
   }

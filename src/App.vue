@@ -10,7 +10,8 @@ import Header from './components/PageHeader.vue'
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/ToDoList">To Do List</RouterLink>
+        <RouterLink to="/todolist">To Do List</RouterLink>
+        <RouterLink to="/characterlist">Character List</RouterLink>
         <RouterLink to="/contact">Contact</RouterLink>
       </nav>
     </div>

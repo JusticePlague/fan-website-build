@@ -1,36 +1,35 @@
-<script setup>
-defineProps({
-  character: {
-    type: Object,
-    required: true
+<script>
+import CharacterCard from './character/CharacterCard.vue'
+import axios from 'axios'
+
+export default{
+    name: 'CharacterList',
+    components: {
+        CharacterCard
+    },
+    data() {
+    return {
+      characters: null
+    }
+  },
+  created() {
+    axios.get('https://my-json-server.typicode.com/JusticePlague/fan-website-build/characters')
+    .then( response => {
+      this.characters = response.data
+    })
+    .catch(error =>{
+      console.log(error)
+    })
   }
-})
+}
 </script>
 
 <template>
-    <div class="character">
-        {{ character.name }}
-        {{ character.fullname }} 
-        {{ character.alignment }}
-        {{ character.description }}
-        {{ character. }}
-        {{ character. }}
-        {{ character. }}
-        {{ character. }}
-        {{ character. }}
-        {{ character. }}
 
+        <CharacterCard v-for="character in characters" :key="character.name" :character="character"/>
 
-        "id": 
-        "name":
-        "full-name": 
-        "alignment": 
-        "description":
-        "shortbio": 
-        "location": 
-    </div>
 </template>
 
 <style scoped>
-
+    
 </style>

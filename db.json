@@ -4,28 +4,28 @@
         "id": 100,
         "name": "General Zod",
         "fullname": "Dru-Zod",
-        "alignment": "hero/villian",
-        "description": "Find your new feline friend at this event.",
-        "shortbio": "A Snippet about them",
-        "location": "City they reside in"
+        "alignment": "Villian",
+        "description": "Lawful Evil, possibly Lawful Neutral. Potential to be good, but not in main continuity.",
+        "shortbio": "The last leader of the Kryptonian Warrior Guild and the last General of the Kryptonian army. He existed to protect Krypton and lives with the guilt of failing.",
+        "location": "Phantom Zone, usually"
       },
       {
         "id": 101,
         "name": "Superman",
         "fullname": "Clark Kent",
-        "alignment": "hero/villian",
-        "description": "Find your new feline friend at this event.",
-        "shortbio": "A Snippet about them",
-        "location": "City they reside in"
+        "alignment": "Hero",
+        "description": "Lawful Good",
+        "shortbio": "The last son of Krypton, born shortly before the planet's demise and sent away to save him.He was raised on Earth by the Kents.",
+        "location": "Metropolis"
       },
       {
         "id": 102,
         "name": "Batman",
         "fullname": "Bruce Wayne",
-        "alignment": "hero/villian",
-        "description": "Find your new feline friend at this event.",
-        "shortbio": "A Snippet about them",
-        "location": "City they reside in"
+        "alignment": "Vigilante",
+        "description": "Chaotic Good or Lawful Good, depends on his mood.",
+        "shortbio": "An orphan of crime, billionare Bruce Wayne is determined to save Gotham by striking fear into the hearts of criminals",
+        "location": "Gotham"
       },
       {
         "id": 103,

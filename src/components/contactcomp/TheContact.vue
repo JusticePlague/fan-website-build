@@ -1,7 +1,7 @@
 <script>
 import TheAlert from '/src/components/modalcomp/TheAlert.vue'
 
-const WEB3FORMS_ACCESS_KEY = "31ad27a4-5743-4ac1-975b-1581dc702cf2";
+const WEB3FORMS_ACCESS_KEY = '31ad27a4-5743-4ac1-975b-1581dc702cf2'
 
 export default {
   data() {
@@ -9,39 +9,39 @@ export default {
       name: '',
       email: '',
       message: '',
-      alert: null,
-    };
+      alert: null
+    }
   },
   methods: {
     async submitForm() {
-      const response = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
         headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
+          'Content-Type': 'application/json',
+          Accept: 'application/json'
         },
         body: JSON.stringify({
           access_key: WEB3FORMS_ACCESS_KEY,
           name: this.name,
           email: this.email,
-          message: this.message,
-        }),
-      });
-      const result = await response.json();
+          message: this.message
+        })
+      })
+      const result = await response.json()
       if (result.success) {
         console.log(result)
         //alert("you did it!")
-        this.alert=alert
+        this.alert = alert
         this.reset()
       }
     },
     async reset() {
-      this.name = '';
-      this.email = '';
-      this.message = '';
-    },
-  },
-};
+      this.name = ''
+      this.email = ''
+      this.message = ''
+    }
+  }
+}
 </script>
 
 <template>
@@ -58,18 +58,24 @@ export default {
     <form ref="contactForm" @submit.prevent="submitForm">
       <div class="name-input">
         <label for="name">Name</label>
-        <input type="text" name="name" placeholder="Name" v-model="name" required/>
+        <input type="text" name="name" placeholder="Name" v-model="name" required />
       </div>
 
       <div class="email-input">
         <label for="email">Email</label>
-        <input type="email" name="email" placeholder="Email" v-model="email" required/>
+        <input type="email" name="email" placeholder="Email" v-model="email" required />
       </div>
 
       <div class="message-input">
         <label for="message">Send me a note</label>
         <br />
-        <textarea name="message" v-model="message" placeholder="How can I help you?" required minlength="10"></textarea>
+        <textarea
+          name="message"
+          v-model="message"
+          placeholder="How can I help you?"
+          required
+          minlength="10"
+        ></textarea>
       </div>
 
       <div class="sub-button">
@@ -79,7 +85,7 @@ export default {
     </form>
   </main>
 </template>
-  
+
 <style scoped>
 form {
   background: var(--bg-2);
@@ -125,17 +131,16 @@ label {
   border: var(--border) solid 5px;
 }
 
-.alerting button{
+.alerting button {
   margin-bottom: 1vh;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   color: var(--alert-button-text);
   background: var(--alert-button);
 }
 
-.alerting button:hover{
+.alerting button:hover {
   background: var(--alert-button-hover);
   color: var(--alert-button-text-hover);
 }
-
 </style>

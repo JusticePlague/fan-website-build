@@ -14,7 +14,7 @@ export default {
 </template>
 
 <style>
-.banners{
+.banners {
   white-space: pre-wrap;
 }
 </style>
