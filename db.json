@@ -1,70 +1,64 @@
 {
-  "events": [
-    {
-      "id": 123,
-      "category": "animal welfare",
-      "title": "Cat Adoption Day",
-      "description": "Find your new feline friend at this event.",
-      "location": "Meow Town",
-      "date": "January 28, 2022",
-      "time": "12:00",
-      "petsAllowed": true,
-      "organizer": "Kat Laydee"
-    },
-    {
-      "id": 456,
-      "category": "food",
-      "title": "Community Gardening",
-      "description": "Join us as we tend to the community edible plants.",
-      "location": "Flora City",
-      "date": "March 14, 2022",
-      "time": "10:00",
-      "petsAllowed": true,
-      "organizer": "Fern Pollin"
-    },
-    {
-      "id": 789,
-      "category": "sustainability",
-      "title": "Beach Cleanup",
-      "description": "Help pick up trash along the shore.",
-      "location": "Playa Del Carmen",
-      "date": "July 22, 2022",
-      "time": "11:00",
-      "petsAllowed": false,
-      "organizer": "Carey Wales"
-    },
-    {
-      "id": 1001,
-      "category": "animal welfare",
-      "title": "Dog Adoption Day",
-      "description": "Find your new canine friend at this event.",
-      "location": "Woof Town",
-      "date": "August 28, 2022",
-      "time": "12:00",
-      "petsAllowed": true,
-      "organizer": "Dawg Dahd"
-    },
-    {
-      "id": 1002,
-      "category": "food",
-      "title": "Canned Food Drive",
-      "description": "Bring your canned food to donate to those in need.",
-      "location": "Tin City",
-      "date": "September 14, 2022",
-      "time": "3:00",
-      "petsAllowed": true,
-      "organizer": "Kahn Opiner"
-    },
-    {
-      "id": 1003,
-      "category": "sustainability",
-      "title": "Highway Cleanup",
-      "description": "Help pick up trash along the highway.",
-      "location": "Highway 50",
-      "date": "July 22, 2022",
-      "time": "11:00",
-      "petsAllowed": false,
-      "organizer": "Brody Kill"
-    }
-  ]
-}
+    "characters": [
+      {
+        "id": 100,
+        "callname": "Zod",
+        "name": "General Zod",
+        "fullname": "Dru-Zod",
+        "alignment": "Villian",
+        "description": "Lawful Evil, possibly Lawful Neutral. Potential to be good, but not in main continuity.",
+        "shortbio": "The last leader of the Kryptonian Warrior Guild and the last General of the Kryptonian army. He existed to protect Krypton and lives with the guilt of failing.",
+        "location": "Phantom Zone, usually"
+      },
+      {
+        "id": 101,
+        "callname": "Superman",
+        "name": "Superman",
+        "fullname": "Clark Kent",
+        "alignment": "Hero",
+        "description": "Lawful Good",
+        "shortbio": "The last son of Krypton, born shortly before the planet's demise and sent away to save him.He was raised on Earth by the Kents.",
+        "location": "Metropolis"
+      },
+      {
+        "id": 102,
+        "callname": "Batman",
+        "name": "Batman",
+        "fullname": "Bruce Wayne",
+        "alignment": "Vigilante",
+        "description": "Chaotic Good or Lawful Good, depends on his mood.",
+        "shortbio": "An orphan of crime, billionare Bruce Wayne is determined to save Gotham by striking fear into the hearts of criminals",
+        "location": "Gotham"
+      },
+      {
+        "id": 103,
+        "callname": "Deathstroke",
+        "name": "Deathstroke",
+        "fullname": "Slade Wilson",
+        "alignment": "hero/villian",
+        "description": "Find your new feline friend at this event.",
+        "shortbio": "A Snippet about them",
+        "location": "City they reside in"
+      },
+      {
+        "id": 104,
+        "callname": "Lex",
+        "name": "Lex Luthor",
+        "fullname": "Alexander Luthor",
+        "alignment": "hero/villian",
+        "description": "Find your new feline friend at this event.",
+        "shortbio": "A Snippet about them",
+        "location": "City they reside in"
+      },
+      {
+        "id": 105,
+        "callname": "callname",
+        "name": "Name",
+        "fullname": "Full Name",
+        "alignment": "hero/villian",
+        "description": "Find your new feline friend at this event.",
+        "shortbio": "A Snippet about them",
+        "location": "City they reside in"
+      }
+    ]
+  }

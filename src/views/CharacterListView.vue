@@ -1,5 +1,5 @@
 <script>
-import CharacterCard from './character/CharacterCard.vue'
+import CharacterCard from '@/components/charcomp/CharCard.vue'
 import axios from 'axios'
 
 export default{
