@@ -1,8 +1,7 @@
 {
     "characters": [
       {
-        "id": 100,
-        "callname": "Zod",
+        "id": "Zod",
         "name": "General Zod",
         "fullname": "Dru-Zod",
         "alignment": "Villian",
@@ -11,8 +10,7 @@
         "location": "Phantom Zone, usually"
       },
       {
-        "id": 101,
-        "callname": "Superman",
+        "id": "Superman",
         "name": "Superman",
         "fullname": "Clark Kent",
         "alignment": "Hero",
@@ -21,8 +19,7 @@
         "location": "Metropolis"
       },
       {
-        "id": 102,
-        "callname": "Batman",
+        "id": "Batman",
         "name": "Batman",
         "fullname": "Bruce Wayne",
         "alignment": "Vigilante",
@@ -31,8 +28,7 @@
         "location": "Gotham"
       },
       {
-        "id": 103,
-        "callname": "Deathstroke",
+        "id": "Deathstroke",
         "name": "Deathstroke",
         "fullname": "Slade Wilson",
         "alignment": "hero/villian",
@@ -41,8 +37,7 @@
         "location": "City they reside in"
       },
       {
-        "id": 104,
-        "callname": "Lex",
+        "id": "Lex",
         "name": "Lex Luthor",
         "fullname": "Alexander Luthor",
         "alignment": "hero/villian",
@@ -51,8 +46,7 @@
         "location": "City they reside in"
       },
       {
-        "id": 105,
-        "callname": "callname",
+        "id": "callname",
         "name": "Name",
         "fullname": "Full Name",
         "alignment": "hero/villian",
