@@ -10,10 +10,10 @@ const apiClient = axios.create({
 })
 
 export default {
-  getCharacters(perPage, page) {
-    return apiClient.get('/characters?_limit=' + perPage + '&_page=' + page)
+  getCharacters() {
+    return apiClient.get('/characters')
   },
-  getCharacter(id) {
-    return apiClient.get('/character/' + id)
+  getCharacter(callname) {
+    return apiClient.get('/character/' +  callname )
   }
 }

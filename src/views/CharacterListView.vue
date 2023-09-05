@@ -1,6 +1,6 @@
 <script>
 import CharacterCard from '@/components/charcomp/CharCard.vue'
-import axios from 'axios'
+import CharService from '@/services/CharService.js'
 
 export default{
     name: 'CharacterList',
@@ -13,7 +13,7 @@ export default{
     }
   },
   created() {
-    axios.get('https://my-json-server.typicode.com/JusticePlague/fan-website-build/characters')
+    CharService.getCharacters()
     .then( response => {
       this.characters = response.data
     })
