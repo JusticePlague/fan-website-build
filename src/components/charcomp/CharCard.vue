@@ -11,7 +11,7 @@ import { RouterLink } from 'vue-router';
     </script>
 
 <template>
-  <RouterLink to="/character/Zod">
+  <RouterLink :to="{ name: 'CharPage', params:{ id: character.id} }">
     <div class="char">
       <p>{{ character.name }}</p>
       <p>{{ character.fullname }}</p>

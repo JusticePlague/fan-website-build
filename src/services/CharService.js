@@ -13,7 +13,7 @@ export default {
   getCharacters() {
     return apiClient.get('/characters')
   },
-  getCharacter(callname) {
-    return apiClient.get('/character/' +  callname )
+  getCharacter(id) {
+    return apiClient.get('/characters/' +  id )
   }
 }
