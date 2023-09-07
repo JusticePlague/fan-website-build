@@ -39,6 +39,7 @@ const router = createRouter({
     {
       path: '/characters/:id',
       name: 'CharPage',
+      props: true,
       component: CharPage
     },
 
