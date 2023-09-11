@@ -30,6 +30,7 @@ export default {
         <p>{{ character.shortbio }}</p>
         <p>{{ character.location }}</p>
         <p>{{ character.id }}</p>
+        <p>{{ character.Num }}</p>
     </div>
 </template>
 

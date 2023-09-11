@@ -8,7 +8,7 @@
         "description": "Lawful Evil, possibly Lawful Neutral. Potential to be good, but not in main continuity.",
         "shortbio": "The last leader of the Kryptonian Warrior Guild and the last General of the Kryptonian army. He existed to protect Krypton and lives with the guilt of failing.",
         "location": "Phantom Zone, usually",
-        "Num": "001"
+        "num": "001"
       },
       {
         "id": "Superman",
@@ -18,7 +18,7 @@
         "description": "Lawful Good",
         "shortbio": "The last son of Krypton, born shortly before the planet's demise and sent away to save him.He was raised on Earth by the Kents.",
         "location": "Metropolis",
-        "Num": "001"
+        "num": "002"
       },
       {
         "id": "Batman",
@@ -28,7 +28,7 @@
         "description": "Chaotic Good or Lawful Good, depends on his mood.",
         "shortbio": "An orphan of crime, billionare Bruce Wayne is determined to save Gotham by striking fear into the hearts of criminals",
         "location": "Gotham",
-        "Num": "002"
+        "num": "003"
       },
       {
         "id": "Deathstroke",
@@ -38,7 +38,7 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "City they reside in",
-        "Num": "003"
+        "num": "004"
       },
       {
         "id": "Lex",
@@ -48,7 +48,7 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "City they reside in",
-        "Num": "004"
+        "num": "005"
       },
       {
         "id": "RedHood",
@@ -58,9 +58,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "Gotham",
-        "Num": "005"
-      }
-      ,
+        "num": "006"
+      },
       {
         "id": "NightWing",
         "name": "Nightwing",
@@ -69,9 +68,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "Bludhaven",
-        "Num": "006"
-      }
-      ,
+        "num": "007"
+      },
       {
         "id": "RedRobin",
         "name": "Red Robin",
@@ -80,9 +78,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "Gotham",
-        "Num": "007"
-      }
-      ,
+        "num": "008"
+      },
       {
         "id": "Robin",
         "name": "Robin",
@@ -91,9 +88,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "Gotham",
-        "Num": "008"
-      }
-      ,
+        "num": "009"
+      },
       {
         "id": "Kon",
         "name": "Kon-El, Superboy",
@@ -102,20 +98,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "Smallville, Metropolis, Hawaii",
-        "Num": "009"
-      }
-      ,
-      {
-        "id": "Jon",
-        "name": "Superboy, later Superman",
-        "fullname": "Jonathon Samuel Kent, Jon-El",
-        "alignment": "Hero",
-        "description": "description",
-        "shortbio": "A Snippet about them",
-        "location": "Smallville, Metropolis",
-        "Num": "010"
-      }
-      ,
+        "num": "010"
+      },
       {
         "id": "Jor",
         "name": "Jor",
@@ -124,9 +108,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "Krypton",
-        "Num": "011"
-      }
-      ,
+        "num": "011"
+      },
       {
         "id": "Lara",
         "name": "Lara",
@@ -135,9 +118,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "Krypton",
-        "Num": "012"
-      }
-      ,
+        "num": "012"
+      },
       {
         "id": "Nim",
         "name": "Nim",
@@ -146,9 +128,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "City they reside in",
-        "Num": "013"
-      }
-      ,
+        "num": "013"
+      },
       {
         "id": "Zor",
         "name": "Zor",
@@ -157,9 +138,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "Krypton",
-        "Num": "014"
-      }
-      ,
+        "num": "014"
+      },
       {
         "id": "Faora",
         "name": "Faora",
@@ -168,9 +148,8 @@
         "description": "Lawful Evil, possibly Lawful Neutral. Potential to be good, but not in main continuity.",
         "shortbio": "A Snippet about them",
         "location": "Phantom Zone",
-        "Num": "015"
-      }
-      ,
+        "num": "015"
+      },
       {
         "id": "Joker",
         "name": "Joker",
@@ -179,9 +158,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "Gotham",
-        "Num": "016"
-      }
-      ,
+        "num": "016"
+      },
       {
         "id": "Lor",
         "name": "Lor-Zod",
@@ -190,9 +168,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "City they reside in",
-        "Num": "017"
-      }
-      ,
+        "num": "017"
+      },
       {
         "id": "Oracle",
         "name": "Oracle",
@@ -201,9 +178,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "Gotham",
-        "Num": "018"
-      }
-      ,
+        "num": "018"
+      },
       {
         "id": "Flash",
         "name": "The Flash",
@@ -212,9 +188,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "City they reside in",
-        "Num": "019"
-      }
-      ,
+        "num": "019"
+      },
       {
         "id": "GreenLantern",
         "name": "Green Lantern",
@@ -223,7 +198,17 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "City they reside in",
-        "Num": "020"
+        "num": "020"
+      }      ,
+      {
+        "id": "Jon",
+        "name": "Superboy, later Superman",
+        "fullname": "Jonathon Samuel Kent, Jon-El",
+        "alignment": "Hero",
+        "description": "description",
+        "shortbio": "A Snippet about them",
+        "location": "Smallville, Metropolis",
+        "num": "021"
       }
     ]
   }
