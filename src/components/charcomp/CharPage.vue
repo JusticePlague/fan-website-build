@@ -21,14 +21,16 @@ export default {
 </script>
 
 <template>
-    <h1>HI</h1>
-    <p>{{ character.name }}</p>
-    <p>{{ character.fullname }}</p>
-    <p>{{ character.alignment }} </p>
-    <p>{{ character.description }}</p>
-    <p>{{ character.shortbio }}</p>
-    <p>{{ character.location }}</p>
-    <p>{{ character.id }}</p>
+    <div v-if="character">
+        <h1>HI</h1>
+        <p>{{ character.name }}</p>
+        <p>{{ character.fullname }}</p>
+        <p>{{ character.alignment }} </p>
+        <p>{{ character.description }}</p>
+        <p>{{ character.shortbio }}</p>
+        <p>{{ character.location }}</p>
+        <p>{{ character.id }}</p>
+    </div>
 </template>
 
 <style scoped>

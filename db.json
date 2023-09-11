@@ -7,7 +7,8 @@
         "alignment": "Villian BUT IS HE REALLY THO no sit down i have a speech prepared",
         "description": "Lawful Evil, possibly Lawful Neutral. Potential to be good, but not in main continuity.",
         "shortbio": "The last leader of the Kryptonian Warrior Guild and the last General of the Kryptonian army. He existed to protect Krypton and lives with the guilt of failing.",
-        "location": "Phantom Zone, usually"
+        "location": "Phantom Zone, usually",
+        "Num": "001"
       },
       {
         "id": "Superman",
@@ -16,7 +17,8 @@
         "alignment": "Hero",
         "description": "Lawful Good",
         "shortbio": "The last son of Krypton, born shortly before the planet's demise and sent away to save him.He was raised on Earth by the Kents.",
-        "location": "Metropolis"
+        "location": "Metropolis",
+        "Num": "001"
       },
       {
         "id": "Batman",
@@ -25,34 +27,203 @@
         "alignment": "Vigilante",
         "description": "Chaotic Good or Lawful Good, depends on his mood.",
         "shortbio": "An orphan of crime, billionare Bruce Wayne is determined to save Gotham by striking fear into the hearts of criminals",
-        "location": "Gotham"
+        "location": "Gotham",
+        "Num": "002"
       },
       {
         "id": "Deathstroke",
         "name": "Deathstroke",
         "fullname": "Slade Wilson",
         "alignment": "hero/villian",
-        "description": "Find your new feline friend at this event.",
+        "description": "description",
         "shortbio": "A Snippet about them",
-        "location": "City they reside in"
+        "location": "City they reside in",
+        "Num": "003"
       },
       {
         "id": "Lex",
         "name": "Lex Luthor",
         "fullname": "Alexander Luthor",
         "alignment": "hero/villian",
-        "description": "Find your new feline friend at this event.",
+        "description": "description",
         "shortbio": "A Snippet about them",
-        "location": "City they reside in"
+        "location": "City they reside in",
+        "Num": "004"
       },
       {
-        "id": "callname",
-        "name": "Name",
-        "fullname": "Full Name",
-        "alignment": "hero/villian",
-        "description": "Find your new feline friend at this event.",
+        "id": "RedHood",
+        "name": "Red Hood",
+        "fullname": "Jason Todd",
+        "alignment": "Vigilante",
+        "description": "description",
         "shortbio": "A Snippet about them",
-        "location": "City they reside in"
+        "location": "Gotham",
+        "Num": "005"
+      }
+      ,
+      {
+        "id": "NightWing",
+        "name": "Nightwing",
+        "fullname": "Richard 'Dick' Grayson",
+        "alignment": "Hero",
+        "description": "description",
+        "shortbio": "A Snippet about them",
+        "location": "Bludhaven",
+        "Num": "006"
+      }
+      ,
+      {
+        "id": "RedRobin",
+        "name": "Red Robin",
+        "fullname": "Timothy Drake",
+        "alignment": "Hero",
+        "description": "description",
+        "shortbio": "A Snippet about them",
+        "location": "Gotham",
+        "Num": "007"
+      }
+      ,
+      {
+        "id": "Robin",
+        "name": "Robin",
+        "fullname": "Damian Wayne",
+        "alignment": "Vigilante",
+        "description": "description",
+        "shortbio": "A Snippet about them",
+        "location": "Gotham",
+        "Num": "008"
+      }
+      ,
+      {
+        "id": "Kon",
+        "name": "Kon-El, Superboy",
+        "fullname": "Conner Kent, Kon-El",
+        "alignment": "Hero",
+        "description": "description",
+        "shortbio": "A Snippet about them",
+        "location": "Smallville, Metropolis, Hawaii",
+        "Num": "009"
+      }
+      ,
+      {
+        "id": "Jon",
+        "name": "Superboy, later Superman",
+        "fullname": "Jonathon Samuel Kent, Jon-El",
+        "alignment": "Hero",
+        "description": "description",
+        "shortbio": "A Snippet about them",
+        "location": "Smallville, Metropolis",
+        "Num": "010"
+      }
+      ,
+      {
+        "id": "Jor",
+        "name": "Jor",
+        "fullname": "Jor-El",
+        "alignment": "Scientist with Hero Leanings",
+        "description": "description",
+        "shortbio": "A Snippet about them",
+        "location": "Krypton",
+        "Num": "011"
+      }
+      ,
+      {
+        "id": "Lara",
+        "name": "Lara",
+        "fullname": "Lara Jor-El nee Lor-Van",
+        "alignment": "Good, scientist or artist depending on the run",
+        "description": "description",
+        "shortbio": "A Snippet about them",
+        "location": "Krypton",
+        "Num": "012"
+      }
+      ,
+      {
+        "id": "Nim",
+        "name": "Nim",
+        "fullname": "Nim-El",
+        "alignment": "No one knowsss retconned",
+        "description": "description",
+        "shortbio": "A Snippet about them",
+        "location": "City they reside in",
+        "Num": "013"
+      }
+      ,
+      {
+        "id": "Zor",
+        "name": "Zor",
+        "fullname": "Zor-El",
+        "alignment": "No one knows, usually depictated as good but estranged from Jor",
+        "description": "description",
+        "shortbio": "A Snippet about them",
+        "location": "Krypton",
+        "Num": "014"
+      }
+      ,
+      {
+        "id": "Faora",
+        "name": "Faora",
+        "fullname": "Faora Hu-Ul",
+        "alignment": "Villian, but could be good",
+        "description": "Lawful Evil, possibly Lawful Neutral. Potential to be good, but not in main continuity.",
+        "shortbio": "A Snippet about them",
+        "location": "Phantom Zone",
+        "Num": "015"
+      }
+      ,
+      {
+        "id": "Joker",
+        "name": "Joker",
+        "fullname": "Joker. Believed name Jack Napier",
+        "alignment": "Villian",
+        "description": "description",
+        "shortbio": "A Snippet about them",
+        "location": "Gotham",
+        "Num": "016"
+      }
+      ,
+      {
+        "id": "Lor",
+        "name": "Lor-Zod",
+        "fullname": "Chris Kent, Lor-Zod",
+        "alignment": "Hero",
+        "description": "description",
+        "shortbio": "A Snippet about them",
+        "location": "City they reside in",
+        "Num": "017"
+      }
+      ,
+      {
+        "id": "Oracle",
+        "name": "Oracle",
+        "fullname": "Barbara Gordon",
+        "alignment": "Hero",
+        "description": "description",
+        "shortbio": "A Snippet about them",
+        "location": "Gotham",
+        "Num": "018"
+      }
+      ,
+      {
+        "id": "Flash",
+        "name": "The Flash",
+        "fullname": "Bartholomew 'Barry' Allen",
+        "alignment": "Hero",
+        "description": "description",
+        "shortbio": "A Snippet about them",
+        "location": "City they reside in",
+        "Num": "019"
+      }
+      ,
+      {
+        "id": "GreenLantern",
+        "name": "Green Lantern",
+        "fullname": "Hal Jordan",
+        "alignment": "hero",
+        "description": "description",
+        "shortbio": "A Snippet about them",
+        "location": "City they reside in",
+        "Num": "020"
       }
     ]
   }
