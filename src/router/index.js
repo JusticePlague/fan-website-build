@@ -7,7 +7,11 @@ import ContactView from '../views/ContactView.vue'
 import TodoList from '../views/ToDo.vue'
 
 import CharacterList from '../views/CharacterListView.vue'
-import CharPage from '../components/charcomp/CharPage.vue'
+import CharPage from '../views/CharView/CharPage.vue'
+
+import NotFound from '../views/ErrorPages/NotFound.vue'
+import NetworkError from '../views/ErrorPages/NetworkError.vue'
+import CharNotFound from '../views/ErrorPages/CharNotFound.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -33,7 +37,8 @@ const router = createRouter({
     {
       path: '/characterlist',
       name: 'CharacterList',
-      component: CharacterList
+      component: CharacterList,
+      props: route => ({ page: parseInt(route.query.page) || 1 })
     },
 
     {
@@ -47,7 +52,32 @@ const router = createRouter({
       path: '/contact',
       name: 'contact',
       component: ContactView
+    },
+
+    {
+      path: '/:catchAll(.*)',
+      name: 'NotFound',
+      component: NotFound
+    },
+
+    {
+      path:'/404/:resource',
+      name:'404Resource',
+      component: NotFound,
+      props:true
+    },
+
+    {
+      path: '/network-error',
+      name: 'NetworkError',
+      component: NetworkError
     }
+
+    // {
+    //   path: '/characters/:id:catchAll(.*)',
+    //   name: 'CharNotFound',
+    //   component: CharNotFound
+    // },
   ]
 })
 

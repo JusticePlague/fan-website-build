@@ -15,6 +15,16 @@ export default {
         })
         .catch(error =>{
             console.log(error)
+
+            if(error.response && error.response.status == 404){
+                this.$router.push({
+                name: '404Resource',
+                params: { resource: 'character' }
+                })
+            }
+            else {
+                this.$router.push({ name: 'NetworkError' })
+            }
         })
     }
 }
@@ -30,7 +40,7 @@ export default {
         <p>{{ character.shortbio }}</p>
         <p>{{ character.location }}</p>
         <p>{{ character.id }}</p>
-        <p>{{ character.Num }}</p>
+        <p>{{ character.num }}</p>
     </div>
 </template>
 
