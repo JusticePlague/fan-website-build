@@ -2,6 +2,7 @@
 import CharacterCard from './CharView/CharCard.vue'
 import CharService from '@/services/CharService.js'
 import { watchEffect } from 'vue'
+// import NProgress from 'nprogress'
 
 export default{
     name: 'CharacterList',
@@ -15,6 +16,36 @@ export default{
       totalCharacters: 0
     }
   },
+  // beforeRouteEnter(routeTo, routeFrom, next){
+  //   NProgress.start()
+  //   CharService.getCharacters(5, parseInt(routeTo.query.page) || 1)
+  //     .then( response => {
+  //       next(comp => {
+  //         comp.characters = response.data
+  //         comp.totalCharacters = response.headers['x-total-count']
+  //       })
+  //     })
+  //     .catch(() =>{
+  //       next({ name: 'NetworkError' })
+  //     })
+  //     .finally(() => {
+  //       NProgress.done()
+  //     })
+  // },
+  // beforeRouteUpdate(routeTo){
+  //   NProgress.start()
+  //   CharService.getCharacters(5, parseInt(routeTo.query.page) || 1)
+  //     .then( response => {
+  //         this.characters = response.data
+  //         this.totalCharacters = response.headers['x-total-count']
+  //     })
+  //     .catch(() =>{
+  //       return { name: 'NetworkError' }
+  //     })
+  //     .finally(() => {
+  //       NProgress.done()
+  //     })
+  // },
   created() {
     watchEffect(() => {
       this.events = null

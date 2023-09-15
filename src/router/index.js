@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import NProgress from 'nprogress'
 
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
@@ -11,7 +12,7 @@ import CharPage from '../views/CharView/CharPage.vue'
 
 import NotFound from '../views/ErrorPages/NotFound.vue'
 import NetworkError from '../views/ErrorPages/NetworkError.vue'
-import CharNotFound from '../views/ErrorPages/CharNotFound.vue'
+// import CharNotFound from '../views/ErrorPages/CharNotFound.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -79,6 +80,14 @@ const router = createRouter({
     //   component: CharNotFound
     // },
   ]
+})
+
+router.beforeEach(() => {
+  NProgress.start()
+})
+
+router.afterEach(() => {
+  NProgress.done()
 })
 
 export default router
