@@ -19,7 +19,6 @@ export default {
 
   <main>
     <div class="main flex col-12" id="flex">
-
       <div class="lefttop" id="one">
         <div class="box-header-top">
           <h1>One</h1>
@@ -58,7 +57,6 @@ export default {
       </div>
 
       <div class="leftbottom" id="four">
-        
         <div class="box-header-bottom">
           <h1>Two</h1>
         </div>
@@ -93,17 +91,11 @@ export default {
           <h6>Testing Heading Six</h6>
           <p>Testing Paragraph</p>
         </div>
-
       </div>
 
       <div class="righttop" id="two">
-
         <div class="box-header-top">
-          
-          <h1>
-            Four
-          </h1>
-
+          <h1>Four</h1>
         </div>
 
         <div class="box-text-top">
@@ -136,14 +128,11 @@ export default {
           <h6>Testing Heading Six</h6>
           <p>Testing Paragraph</p>
         </div>
-
       </div>
 
       <div class="rightbottom" id="three">
         <div class="box-header-bottom">
-          <h1>
-            Three
-          </h1>
+          <h1>Three</h1>
         </div>
 
         <div class="box-text-bottom">
@@ -177,7 +166,6 @@ export default {
           <p>Testing Paragraph</p>
         </div>
       </div>
-
     </div>
   </main>
 </template>
@@ -187,104 +175,107 @@ export default {
 
 /*  Divs  */
 
-  #flex {
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    min-width: fit-content;
-    width: 100%;
-  }
+#flex {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  min-width: fit-content;
+  width: 100%;
+}
 
-  #one {
-    order: 1;
-  }
+#one {
+  order: 1;
+}
 
- #two {
-   order: 2;
-  }
+#two {
+  order: 2;
+}
 
- #three {
-   order: 3;
-  }  
+#three {
+  order: 3;
+}
 
- #four {
-   order: 4;
-  }
+#four {
+  order: 4;
+}
 
-  #one,
-  #two,
-  #three,
-  #four{
-    width: 47%;
-  }
+#one,
+#two,
+#three,
+#four {
+  width: 47%;
+}
 
-  .lefttop,
-  .righttop {
-    border-radius: 50px;
-    margin-top: -1vh;
-  }
-  
+.lefttop,
+.righttop {
+  border-radius: 50px;
+  margin-top: -1vh;
+}
 
-  .leftbottom,
-  .rightbottom {
-    margin-top: 0;
-  }
+.leftbottom,
+.rightbottom {
+  margin-top: 0;
+}
 
-  .box-header-top,
-  .box-header-top h1 {
-    margin: 1vh 0 0 0;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-  }
+.box-header-top,
+.box-header-top h1 {
+  margin: 1vh 0 0 0;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
 
-  .box-header-top,
-  .box-header-bottom {
-    padding-top: 5px;
-  }
+.box-header-top,
+.box-header-bottom {
+  background: var(--text-box-header);
+  color: var(--text-box-header-text);
+  padding-top: 5px;
+}
 
-  .box-header-bottom {
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-  }
+.box-header-bottom {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
 
-  .box-header-top h1 {
-    margin-top: 1vh;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    font-size: 1.5rem;
+.box-header-top h1 {
+  margin-top: 1vh;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  font-size: 1.5rem;
+}
+.box-header-bottom h1 {
+  margin-top: 0.5vh;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  font-size: 1.5rem;
+}
 
-  }
-  .box-header-bottom h1 {
-    margin-top: 0.5vh;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    font-size: 1.5rem;
-  }
+.box-header-bottom h1,
+.box-header-top h1 {
+  margin-bottom: 0vh;
+  background: var(--text-box-header);
+  color: var(--text-box-header-text);
+}
 
-  .box-header-bottom h1,
-  .box-header-top h1 {
-    margin-bottom: 0vh;
-  }
+.box-header-top,
+.box-header-bottom {
+  background: var(--text-box-header);
+}
 
-  .box-header-top,
-  .box-header-bottom {
-    background: var(--text-box-header);
-  }
-
-  .box-text-top,
-  .box-text-bottom {
-    height: 250px;
-    min-height: 30vh;
-    max-height: 50vh;
-    margin: auto;
-    text-align: center;
-    padding-top: 10px;
-    overflow: scroll;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-  }
+.box-text-top,
+.box-text-bottom {
+  background-color: var(--text-box);
+  height: 250px;
+  min-height: 30vh;
+  max-height: 50vh;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+  overflow: scroll;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
 
 /*Resizing*/
 
@@ -308,14 +299,12 @@ export default {
     max-width: fit-content;
   }
 
-
-
   .right {
     margin-top: auto;
   }
 
   #flex {
-    display: flex; 
+    display: flex;
     flex-direction: column;
     margin-right: auto;
     margin-left: auto;
@@ -327,7 +316,7 @@ export default {
   }
 
   #one {
-     order: 1;
+    order: 1;
   }
 
   #two {
@@ -340,15 +329,14 @@ export default {
 
   #four {
     order: 4;
- }
+  }
 
-
- #one,
- #two,
- #three,
- #four{
-  width: 100%;
- }
+  #one,
+  #two,
+  #three,
+  #four {
+    width: 100%;
+  }
 
   .lefttop,
   .righttop,

@@ -9,13 +9,9 @@ import TodoApp from '/src/components/todocomp/TodoApp.vue'
 </template>
 
 <style scoped>
+@media (min-width: 1024px) {
+}
 
-
-
-  @media (min-width: 1024px) {
-  }
-
-  @media (max-width: 480px) {
-  }
-
+@media (max-width: 480px) {
+}
 </style>

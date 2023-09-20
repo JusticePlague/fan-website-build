@@ -1,17 +1,17 @@
 <script>
-import { RouterLink } from 'vue-router';
+import { RouterLink } from 'vue-router'
 
-    export default {
-    name: 'CharacterCard',
-    props: {
-        character: Object
-    },
-    components: { RouterLink }
+export default {
+  name: 'CharacterCard',
+  props: {
+    character: Object
+  },
+  components: { RouterLink }
 }
-    </script>
+</script>
 
 <template>
-  <RouterLink :to="{ name: 'CharPage', params:{ id: character.id} }">
+  <RouterLink :to="{ name: 'CharPage', params: { id: character.id } }">
     <div class="char">
       <p>{{ character.name }}</p>
       <p>{{ character.fullname }}</p>
@@ -27,12 +27,11 @@ import { RouterLink } from 'vue-router';
 </template>
 
 <style scoped>
-
-  .char{
-    background: #0ff;
-    border: 5px solid #fff;
-  }
-  .char h2{
-    color:#000;
-  }
+.char {
+  background: #0ff;
+  border: 5px solid #fff;
+}
+.char h2 {
+  color: #000;
+}
 </style>

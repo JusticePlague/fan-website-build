@@ -39,7 +39,7 @@ const router = createRouter({
       path: '/characterlist',
       name: 'CharacterList',
       component: CharacterList,
-      props: route => ({ page: parseInt(route.query.page) || 1 })
+      props: (route) => ({ page: parseInt(route.query.page) || 1 })
     },
 
     {
@@ -62,10 +62,10 @@ const router = createRouter({
     },
 
     {
-      path:'/404/:resource',
-      name:'404Resource',
+      path: '/404/:resource',
+      name: '404Resource',
       component: NotFound,
-      props:true
+      props: true
     },
 
     {

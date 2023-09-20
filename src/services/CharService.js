@@ -14,6 +14,6 @@ export default {
     return apiClient.get('/characters?_limit=' + perPage + '&_page=' + page)
   },
   getCharacter(id) {
-    return apiClient.get('/characters/' +  id )
+    return apiClient.get('/characters/' + id)
   }
 }
