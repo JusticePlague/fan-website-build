@@ -21,4 +21,28 @@ const { toggleCompleted, deleteTodo } = store
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+
+
+.item {
+  display: flex;
+  justify-content: right;
+}
+
+.list {
+  display: flex;
+  font-size: 1.5em;
+  justify-content: right;
+  padding: 0 10vw 0 0;
+  color: var(--text-5);
+}
+
+.completed {
+  text-decoration: line-through;
+  color: var(--text-1);
+}
+
+.todo-app h1 {
+  color: var(--text-3);
+}
+</style>

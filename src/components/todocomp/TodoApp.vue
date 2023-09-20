@@ -18,7 +18,15 @@ import TodoList from './TodoList.vue'
 
 <style scoped>
 .todo-app {
-  height: 50vh;
-  padding: 1vh;
+  padding: 5vh;
+  min-width: 10vw;
+}
+
+@media (min-width: 1024px) {
+
+  .todo-app {
+    padding: 0vh;
+    min-width: 50vw;
+  }
 }
 </style>

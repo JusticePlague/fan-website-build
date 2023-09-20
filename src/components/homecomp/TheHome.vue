@@ -171,8 +171,6 @@ export default {
 </template>
 
 <style scoped>
-/*  List  */
-
 /*  Divs  */
 
 #flex {
