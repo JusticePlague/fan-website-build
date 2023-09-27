@@ -21,6 +21,7 @@ export default {
       <p>{{ character.location }}</p>
       <p>{{ character.id }}</p>
       <p>{{ character.callname }}</p>
+      <img src="src\assets\images\Deathstroke\Slade-Wilsdon-Comics.png"/>
       <h3>Card</h3>
     </div>
   </RouterLink>
