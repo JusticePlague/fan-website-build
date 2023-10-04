@@ -67,6 +67,28 @@ export default {
   </div>
 
   <CharacterCard v-for="character in characters" :key="character.id" :character="character" />
+
+  <div class="pagination">
+    <RouterLink
+      id="page-prev"
+      :to="{ name: 'CharacterList', query: { page: page - 1 } }"
+      rel="prev"
+      v-if="page != 1"
+    >
+      &#60; Previous
+    </RouterLink>
+
+    <span> {{ this.page }} </span>
+
+    <RouterLink
+      id="page-next"
+      :to="{ name: 'CharacterList', query: { page: page + 1 } }"
+      rel="next"
+      v-if="hasNextPage"
+    >
+      Next &#62;
+    </RouterLink>
+  </div>
 </template>
 
 <style scoped>

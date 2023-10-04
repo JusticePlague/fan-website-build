@@ -6,7 +6,12 @@ export default {
   props: {
     character: Object
   },
-  components: { RouterLink }
+  components: { RouterLink },
+  data(){
+    return {
+      charImg: this.character.img
+    }
+  }
 }
 </script>
 
@@ -21,7 +26,7 @@ export default {
       <p>{{ character.location }}</p>
       <p>{{ character.id }}</p>
       <p>{{ character.callname }}</p>
-      <img src="src\assets\images\Deathstroke\Slade-Wilsdon-Comics.png"/>
+      <img :src="`${charImg}`">
       <h3>Card</h3>
     </div>
   </RouterLink>
