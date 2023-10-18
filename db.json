@@ -10,7 +10,8 @@
         "shortbio": "An orphan of crime, billionare Bruce Wayne is determined to save Gotham by striking fear into the hearts of criminals",
         "location": "Gotham",
         "img": "src/assets/images/Batman/Batman-Comics.jpg",
-        "img2": "src/assets/images/Batman/Bruce-Wayne-Comics.jpg"
+        "img2": "src/assets/images/Batman/Bruce-Wayne-Comics.jpg",
+        "icon": "src/assets/images/Batman/Batman-Icon-Worlds-Finest-Mora.png"
       },
 
       {
@@ -22,7 +23,8 @@
         "shortbio": "A Snippet about them",
         "location": "City they reside in",
         "img":"src/assets/images/Deathstroke/deathstroke-comics.jpg",
-        "img2": "src/assets/images/Deathstroke/Slade-Wilsdon-Comics.png"
+        "img2": "src/assets/images/Deathstroke/Slade-Wilsdon-Comics.png",
+        "icon": "src/assets/images/Deathstroke/Deahtstroke-Icon-GodsOfWar-Daniel.png"
       },
 
       {
@@ -33,7 +35,8 @@
         "description": "Lawful Evil, possibly Lawful Neutral. Potential to be good, but not in main continuity.",
         "shortbio": "A Snippet about them",
         "location": "Phantom Zone",
-        "img": "src/assets/images/Faora/Faora.png"
+        "img": "src/assets/images/Faora/Faora.png",
+        "icon": "src/assets/images/Faora/Faora-Icon-SupermanWoderWoman5-Daniel.png"
       },
 
       {
@@ -45,7 +48,8 @@
         "shortbio": "A Snippet about them",
         "location": "City they reside in",
         "img": "src/assets/images/Flash/Barry-Allen.jpg",
-        "img2": "src/assets/images/Flash/The-Flash-Barry.png"
+        "img2": "src/assets/images/Flash/The-Flash-Barry.png",
+        "icon": "src/assets/images/Flash/Flash-Icon-BrightestDay-Manapul.png"
       },
 
       {
@@ -57,7 +61,8 @@
         "shortbio": "A Snippet about them",
         "location": "City they reside in",
         "img": "src/assets/images/GreenLantern/Green-Lantern-Hal.jpg",
-        "img2": "src/assets/images/GreenLantern/Hal-Jordan.png"
+        "img2": "src/assets/images/GreenLantern/Hal-Jordan.png",
+        "icon": "src/assets/images/GreenLantern/GreenLanter-Icon-GLCorps-Sandoval.png"
       },
 
       {
@@ -68,7 +73,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "Gotham",
-        "img": "src/assets/images/Joker/Joker.png"
+        "img": "src/assets/images/Joker/Joker.png",
+        "icon": "src/assets/images/Joker/Joker-Icon-Joker2Variant-Stelfreeze.png"
       },
 
       {
@@ -81,7 +87,8 @@
         "location": "Smallville, Metropolis",
         "img": "src/assets/images/JonEl/Jon-Kent.png",
         "img2": "src/assets/images/JonEl/Superboy-Jon.jpg",
-        "img3": "src/assets/images/JonEl/Superman-Jon.png"
+        "img3": "src/assets/images/JonEl/Superman-Jon.png",
+        "icon": "src/assets/images/JonEl/Jon-Icon-SonOfKalEl1.png"
       },
 
       {
@@ -92,7 +99,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "Krypton",
-        "img": "src/assets/images/Jor/Jor-El-MoS.png"
+        "img": "src/assets/images/Jor/Jor-El-MoS.png",
+        "icon": "src/assets/images/Jor/Jor-Icon-Comics.png"
       },
 
       {
@@ -103,7 +111,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "Smallville, Metropolis, Hawaii",
-        "img": "src/assets/images/KonEl/Kon-El-Superboy.png"
+        "img": "src/assets/images/KonEl/Kon-El-Superboy.png",
+        "icon": "src/assets/images/KonEl/KonEl-Icons-Comics.png"
       },
 
       {
@@ -114,7 +123,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "Krypton",
-        "img": "src/assets/images/Lara/Lara-Lor-Von.png"
+        "img": "src/assets/images/Lara/Lara-Lor-Von.png",
+        "icon": "src/assets/images/Lara/Lara-Icon-Comics.png"
       },
 
       {
@@ -125,7 +135,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "City they reside in",
-        "img": "src/assets/images/Lor/Lor-Zod.jpg"
+        "img": "src/assets/images/Lor/Lor-Zod.jpg",
+        "icon": "src/assets/images/Lor/Lor-Icon-YoungJustice.png"
       },
 
       {
@@ -136,7 +147,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "City they reside in",
-        "img": "src/assets/images/Luthor/Luthor-Young-Justice.jpg"
+        "img": "src/assets/images/Luthor/Luthor-Young-Justice.jpg",
+        "icon": "src/assets/images/Luthor/Luthor-Icon-Comics.png"
       },
 
       {
@@ -148,7 +160,8 @@
         "shortbio": "A Snippet about them",
         "location": "Bludhaven",
         "img": "src/assets/images/Nightwing/Nightwing-Comics.png",
-        "img2": "src/assets/images/Nightwing/Grayson-Comics.jpg"
+        "img2": "src/assets/images/Nightwing/Grayson-Comics.jpg",
+        "icon": "src/assets/images/Nightwing/Nightwing-Icon-Comic.png"
       },
 
       {
@@ -159,7 +172,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "City they reside in",
-        "img": "src/assets/images/Nim/Nim-El.png"
+        "img": "src/assets/images/Nim/Nim-El.png",
+        "icon": "src/assets/images/Nim/Nim-El.png"
       },
 
       {
@@ -172,7 +186,8 @@
         "location": "Gotham",
         "img": "src/assets/images/Oracle/Babs-Oracle.jpg",
         "img2": "src/assets/images/Oracle/Barbara-gordon.jpg",
-        "img3": "src/assets/images/Oracle/Babs-Batgirl.jpg"
+        "img3": "src/assets/images/Oracle/Babs-Batgirl.jpg",
+        "icon": "src/assets/images/Oracle/Oracle-Icon-Comic.png"
       },
 
       {
@@ -184,7 +199,8 @@
         "shortbio": "A Snippet about them",
         "location": "Gotham",
         "img": "src/assets/images/RedHood/Red-Hood-Comics.png",
-        "img2": "src/assets/images/RedHood/Jason-Todd-Comics.jpg"
+        "img2": "src/assets/images/RedHood/Jason-Todd-Comics.jpg",
+        "icon": "src/assets/images/RedHood/RedHood-Icon-Comic.png"
       },
 
       {
@@ -196,7 +212,8 @@
         "shortbio": "A Snippet about them",
         "location": "Gotham",
         "img": "src/assets/images/RedRobin/Red-Robin-Comics.jpg",
-        "img2": "src/assets/images/RedRobin/Tim-Drake-Comics.png"
+        "img2": "src/assets/images/RedRobin/Tim-Drake-Comics.png",
+        "icon": "src/assets/images/RedRobin/RedRobin-Icon-Comic.png"
       },
 
       {
@@ -208,7 +225,8 @@
         "shortbio": "A Snippet about them",
         "location": "Gotham",
         "img": "src/assets/images/Robin/Robin-Comics-Damian.png",
-        "img2": "src/assets/images/Robin/Damian-Wayne-Comics-WFA.png"
+        "img2": "src/assets/images/Robin/Damian-Wayne-Comics-WFA.png",
+        "icon": "src/assets/images/Robin/Robin-Damian-Icon-Comics.png"
       },
 
       {
@@ -220,7 +238,8 @@
         "shortbio": "The last son of Krypton, born shortly before the planet's demise and sent away to save him.He was raised on Earth by the Kents.",
         "location": "Metropolis",
         "img": "src/assets/images/Superman/Superman-New-52.jpg",
-        "img2": "src/assets/images/Superman/clark-kent-new-52.png"
+        "img2": "src/assets/images/Superman/clark-kent-new-52.png",
+        "icon": "src/assets/images/Superman/Superman-Clark-Icon-Comics.png"
       },
 
       {
@@ -231,7 +250,8 @@
         "description": "Lawful Evil, possibly Lawful Neutral. Potential to be good, but not in main continuity.",
         "shortbio": "The last leader of the Kryptonian Warrior Guild and the last General of the Kryptonian army. He existed to protect Krypton and lives with the guilt of failing.",
         "location": "Phantom Zone, usually",
-        "img": "src/assets/images/Zod/Dru-Zod-MoS.jpg"
+        "img": "src/assets/images/Zod/Dru-Zod-MoS.jpg",
+        "icon": "src/assets/images/Zod/Zod-Icon-Comics.png"
       },
 
       {
@@ -242,7 +262,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "Krypton",
-        "img": "src/assets/images/Zor/zor-el.png"
+        "img": "src/assets/images/Zor/zor-el.png",
+        "icon": "src/assets/images/Zor/Zor-Icon-Comics.png"
       }
     ]
   }
