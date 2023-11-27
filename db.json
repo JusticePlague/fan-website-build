@@ -79,7 +79,7 @@
 
       {
         "id": "Jon",
-        "name": "Superboy, later Superman",
+        "name": "Superboy, Superman",
         "fullname": "Jonathon Samuel Kent, Jon-El",
         "alignment": "Hero",
         "description": "description",
@@ -178,7 +178,7 @@
 
       {
         "id": "Oracle",
-        "name": "Oracle, formerly Batgirl",
+        "name": "Oracle",
         "fullname": "Barbara Gordon",
         "alignment": "Hero",
         "description": "description",
