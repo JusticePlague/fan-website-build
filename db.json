@@ -79,7 +79,7 @@
 
       {
         "id": "Jon",
-        "name": "Superboy/Superman",
+        "name": "Superboy",
         "fullname": "Jonathon Samuel Kent, Jon-El",
         "alignment": "Hero",
         "description": "description",
@@ -105,7 +105,7 @@
 
       {
         "id": "Kon",
-        "name": "Kon-El/Superboy",
+        "name": "Kon-El",
         "fullname": "Conner Kent, Kon-El",
         "alignment": "Hero",
         "description": "description",
