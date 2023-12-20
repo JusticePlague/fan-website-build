@@ -31,7 +31,7 @@ export default {
 
 <template>
   <div v-if="character">
-    <h1>HI, this is a character page</h1>
+    <h1>HI</h1>
     <p>{{ character.name }}</p>
     <p>{{ character.fullname }}</p>
     <p>{{ character.alignment }}</p>
