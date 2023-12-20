@@ -83,7 +83,7 @@
 
     --link: var(--light-accent-3);
     --link-active: var(--light-accent-4);
-    --link-hover: var(--light);
+    --link-hover: var(--dark);
 
     --color-1: var(--light-accent-1);
     --color-1t: var(--light-accent-1t);
@@ -138,7 +138,7 @@
 
     --link: var(--dark-accent-3);
     --link-active: var(--dark-accent-5);
-    --link-hover: var(--dark);
+    --link-hover: var(--light);
 
     --color-1: var(--dark-accent-1);
     --color-1t: var(--dark-accent-1t);
@@ -154,6 +154,6 @@
     --color-bar-1: var(--dark-accent-5);
     --color-bar-2: var(--dark-accent-4);
     --color-bar-3: var(--dark-accent-3);
-    --color-bar-text: var(--light-accent-5);
+    --color-bar-text: var(--alert-text);
   }
 }

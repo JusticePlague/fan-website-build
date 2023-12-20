@@ -70,6 +70,15 @@ p {
 a {
   text-decoration: none;
   transition: 0.4s;
+  color: var(--link);
+}
+
+a :hover {
+  color: var(--link-hover);
+}
+
+a :active {
+  color: var(--link-active);
 }
 
 body {

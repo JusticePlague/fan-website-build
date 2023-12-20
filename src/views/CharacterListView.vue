@@ -4,6 +4,15 @@ import CharService from '@/services/CharService.js'
 import ColorBar from '/src/components/TheColorBar.vue'
 import { watchEffect } from 'vue'
 
+     let count = 6
+     if (matchMedia("(max-width: 1100)").matches){
+      count = 6
+     } else if (matchMedia("(min-width: 1101px) and (max-width: 1400px)").matches){
+      count = 12
+     } else if (matchMedia("(min-width: 1401px)").matches) {
+      count = 24
+     }
+     console.log(count)
 
 export default {
   name: 'CharacterList',
@@ -22,7 +31,7 @@ export default {
   created() {
     watchEffect(() => {
       this.events = null
-      CharService.getCharacters(5, this.page)
+      CharService.getCharacters(count, this.page)
         .then((response) => {
           this.characters = response.data
           this.totalCharacters = response.headers['x-total-count']
@@ -34,9 +43,9 @@ export default {
   },
   computed: {
     hasNextPage() {
-      var totalPages = Math.ceil(this.totalCharacters / 5)
+      let totalPages = Math.ceil(this.totalCharacters / count)
       return this.page < totalPages
-    }
+    },
   }
 }
 </script>
@@ -66,7 +75,9 @@ export default {
     </RouterLink>
   </div>
 
-  <CharacterCard v-for="character in characters" :key="character.id" :character="character" />
+  <div class="cardGrid">
+    <CharacterCard v-for="character in characters" :key="character.id" :character="character" />
+  </div>
 
   <div class="pagination">
     <RouterLink
@@ -93,16 +104,68 @@ export default {
 
 <style scoped>
 .pagination {
-  color: #fff;
+  padding-bottom: 10px;
 }
-a {
-  color: #f0f;
-}
+
 #page-prev {
   text-align: left;
 }
 
 #page-next {
   text-align: right;
+}
+
+.cardGrid {
+  margin-right: auto;
+  margin-left: auto;
+  width: 70vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  border-bottom: #fff 2px solid;
+
+}
+
+a {
+  color: var(--link);
+}
+
+a :hover {
+  color: var(--link-hover);
+}
+
+a :active {
+  color: var(--link-active);
+}
+
+
+@media (min-width: 3000px){
+  .cardGrid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 2000px) {
+  .cardGrid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 1024px) {
+  .cardGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 715px) {
+  .cardGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .cardGrid {
+    width: fit-content;
+    grid-template-columns: 1fr;
+  }
 }
 </style>

@@ -1,8 +1,7 @@
 {
     "characters": [
       
-      {
-        "id": "Batman",
+      { "id": "Batman",
         "name": "Batman",
         "fullname": "Bruce Wayne",
         "alignment": "Vigilante",
@@ -14,8 +13,7 @@
         "icon": "src/assets/images/Batman/Batman-Icon-Worlds-Finest-Mora.png"
       },
 
-      {
-        "id": "Deathstroke",
+      { "id": "Deathstroke",
         "name": "Deathstroke",
         "fullname": "Slade Wilson",
         "alignment": "hero/villian",
@@ -27,8 +25,7 @@
         "icon": "src/assets/images/Deathstroke/Deahtstroke-Icon-GodsOfWar-Daniel.png"
       },
 
-      {
-        "id": "Faora",
+      { "id": "Faora",
         "name": "Faora",
         "fullname": "Faora Hu-Ul",
         "alignment": "Villian, but could be good",
@@ -39,8 +36,7 @@
         "icon": "src/assets/images/Faora/Faora-Icon-SupermanWoderWoman5-Daniel.png"
       },
 
-      {
-        "id": "Flash",
+      { "id": "Flash",
         "name": "The Flash",
         "fullname": "Bartholomew 'Barry' Allen",
         "alignment": "Hero",
@@ -52,8 +48,7 @@
         "icon": "src/assets/images/Flash/Flash-Icon-BrightestDay-Manapul.png"
       },
 
-      {
-        "id": "GreenLantern",
+      { "id": "GreenLantern",
         "name": "Green Lantern",
         "fullname": "Hal Jordan",
         "alignment": "hero",
@@ -65,8 +60,7 @@
         "icon": "src/assets/images/GreenLantern/GreenLanter-Icon-GLCorps-Sandoval.png"
       },
 
-      {
-        "id": "Joker",
+      { "id": "Joker",
         "name": "Joker",
         "fullname": "Joker. Believed name Jack Napier",
         "alignment": "Villian",
@@ -77,8 +71,7 @@
         "icon": "src/assets/images/Joker/Joker-Icon-Joker2Variant-Stelfreeze.png"
       },
 
-      {
-        "id": "Jon",
+      { "id": "Jon",
         "name": "Superboy",
         "fullname": "Jonathon Samuel Kent, Jon-El",
         "alignment": "Hero",
@@ -91,8 +84,7 @@
         "icon": "src/assets/images/JonEl/Jon-Icon-SonOfKalEl1.png"
       },
 
-      {
-        "id": "Jor",
+      { "id": "Jor-El",
         "name": "Jor",
         "fullname": "Jor-El",
         "alignment": "Scientist with Hero Leanings",
@@ -103,8 +95,7 @@
         "icon": "src/assets/images/Jor/Jor-Icon-Comics.png"
       },
 
-      {
-        "id": "Kon",
+      { "id": "Kon",
         "name": "Kon-El",
         "fullname": "Conner Kent, Kon-El",
         "alignment": "Hero",
@@ -115,8 +106,7 @@
         "icon": "src/assets/images/KonEl/KonEl-Icons-Comics.png"
       },
 
-      {
-        "id": "Lara",
+      { "id": "Lara Jor-El",
         "name": "Lara",
         "fullname": "Lara Jor-El nee Lor-Van",
         "alignment": "Good, scientist or artist depending on the run",
@@ -127,8 +117,7 @@
         "icon": "src/assets/images/Lara/Lara-Icon-Comics.png"
       },
 
-      {
-        "id": "Lor",
+      { "id": "Lor",
         "name": "Lor-Zod",
         "fullname": "Chris Kent, Lor-Zod",
         "alignment": "Hero",
@@ -139,8 +128,7 @@
         "icon": "src/assets/images/Lor/Lor-Icon-YoungJustice.png"
       },
 
-      {
-        "id": "Luthor",
+      { "id": "Luthor",
         "name": "Lex Luthor",
         "fullname": "Alexander Luthor",
         "alignment": "hero/villian",
@@ -151,8 +139,7 @@
         "icon": "src/assets/images/Luthor/Luthor-Icon-Comics.png"
       },
 
-      {
-        "id": "NightWing",
+      { "id": "NightWing",
         "name": "Nightwing",
         "fullname": "Richard 'Dick' Grayson",
         "alignment": "Hero",
@@ -164,8 +151,7 @@
         "icon": "src/assets/images/Nightwing/Nightwing-Icon-Comic.png"
       },
 
-      {
-        "id": "Nim",
+      { "id": "Nim",
         "name": "Nim",
         "fullname": "Nim-El",
         "alignment": "No one knowsss retconned",
@@ -176,8 +162,7 @@
         "icon": "src/assets/images/Nim/Nim-El.png"
       },
 
-      {
-        "id": "Oracle",
+      { "id": "Oracle",
         "name": "Oracle",
         "fullname": "Barbara Gordon",
         "alignment": "Hero",
@@ -190,8 +175,7 @@
         "icon": "src/assets/images/Oracle/Oracle-Icon-Comic.png"
       },
 
-      {
-        "id": "RedHood",
+      { "id": "RedHood",
         "name": "Red Hood",
         "fullname": "Jason Todd",
         "alignment": "Vigilante",
@@ -203,8 +187,7 @@
         "icon": "src/assets/images/RedHood/RedHood-Icon-Comic.png"
       },
 
-      {
-        "id": "RedRobin",
+      { "id": "RedRobin",
         "name": "Red Robin",
         "fullname": "Timothy Drake",
         "alignment": "Hero",
@@ -216,8 +199,7 @@
         "icon": "src/assets/images/RedRobin/RedRobin-Icon-Comic.png"
       },
 
-      {
-        "id": "Robin",
+      { "id": "Robin",
         "name": "Robin",
         "fullname": "Damian Wayne",
         "alignment": "Vigilante",
@@ -229,8 +211,7 @@
         "icon": "src/assets/images/Robin/Robin-Damian-Icon-Comics.png"
       },
 
-      {
-        "id": "Superman",
+      { "id": "Superman",
         "name": "Superman",
         "fullname": "Clark Kent",
         "alignment": "Hero",
@@ -242,8 +223,7 @@
         "icon": "src/assets/images/Superman/Superman-Clark-Icon-Comics.png"
       },
 
-      {
-        "id": "Zod",
+      { "id": "Zod",
         "name": "General Zod",
         "fullname": "Dru-Zod",
         "alignment": "Villian BUT IS HE REALLY THO no sit down i have a speech prepared",
@@ -254,8 +234,7 @@
         "icon": "src/assets/images/Zod/Zod-Icon-Comics.png"
       },
 
-      {
-        "id": "Zor",
+      { "id": "Zor",
         "name": "Zor",
         "fullname": "Zor-El",
         "alignment": "No one knows, usually depictated as good but estranged from Jor",

@@ -35,10 +35,10 @@ export default {
   border-radius: 50px;
   text-align: center;
   line-height: 5vh;
-  margin-bottom: 1vh 0;
+  margin-bottom: 1vh;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5vh;
-  width: 70vw;
+  width: 75vw;
 }
 </style>
