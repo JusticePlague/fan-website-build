@@ -10,7 +10,7 @@
         "location": "Gotham",
         "img": "src/assets/images/Batman/Batman-Comics.jpg",
         "img2": "src/assets/images/Batman/Bruce-Wayne-Comics.jpg",
-        "icon": "src/assets/images/Batman/Batman-Icon-Worlds-Finest-Mora.png"
+        "icon": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Batman/Batman-Icon-Worlds-Finest-Mora.png?raw=true"
       },
 
       { "id": "Deathstroke",
@@ -22,7 +22,7 @@
         "location": "City they reside in",
         "img":"src/assets/images/Deathstroke/deathstroke-comics.jpg",
         "img2": "src/assets/images/Deathstroke/Slade-Wilsdon-Comics.png",
-        "icon": "src/assets/images/Deathstroke/Deahtstroke-Icon-GodsOfWar-Daniel.png"
+        "icon": ".jpg"
       },
 
       { "id": "Faora",
