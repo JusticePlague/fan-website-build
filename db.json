@@ -8,8 +8,8 @@
         "description": "Chaotic Good or Lawful Good, depends on his mood.",
         "shortbio": "An orphan of crime, billionare Bruce Wayne is determined to save Gotham by striking fear into the hearts of criminals",
         "location": "Gotham",
-        "img": "src/assets/images/Batman/Batman-Comics.jpg",
-        "img2": "src/assets/images/Batman/Bruce-Wayne-Comics.jpg",
+        "img": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Batman/Batman-Comics.jpg?raw=true",
+        "img2": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Batman/Bruce-Wayne-Comics.jpg?raw=true",
         "icon": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Batman/Batman-Icon-Worlds-Finest-Mora.png?raw=true"
       },
 
@@ -20,9 +20,9 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "City they reside in",
-        "img":"src/assets/images/Deathstroke/deathstroke-comics.jpg",
-        "img2": "src/assets/images/Deathstroke/Slade-Wilsdon-Comics.png",
-        "icon": ".jpg"
+        "img":"https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Deathstroke/deathstroke-comics.jpg?raw=true",
+        "img2": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Deathstroke/Slade-Wilsdon-Comics.png?raw=true",
+        "icon": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Deathstroke/Deahtstroke-Icon-GodsOfWar-Daniel.png?raw=true"
       },
 
       { "id": "Faora",
@@ -32,8 +32,8 @@
         "description": "Lawful Evil, possibly Lawful Neutral. Potential to be good, but not in main continuity.",
         "shortbio": "A Snippet about them",
         "location": "Phantom Zone",
-        "img": "src/assets/images/Faora/Faora.png",
-        "icon": "src/assets/images/Faora/Faora-Icon-SupermanWoderWoman5-Daniel.png"
+        "img": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Faora/Faora.png?raw=true",
+        "icon": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Faora/Faora-Icon-SupermanWoderWoman5-Daniel.png?raw=true"
       },
 
       { "id": "Flash",
@@ -43,9 +43,9 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "City they reside in",
-        "img": "src/assets/images/Flash/Barry-Allen.jpg",
-        "img2": "src/assets/images/Flash/The-Flash-Barry.png",
-        "icon": "src/assets/images/Flash/Flash-Icon-BrightestDay-Manapul.png"
+        "img": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Flash/Barry-Allen.jpg?raw=true",
+        "img2": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Flash/The-Flash-Barry.png?raw=true",
+        "icon": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Flash/Flash-Icon-BrightestDay-Manapul.png?raw=true"
       },
 
       { "id": "GreenLantern",
@@ -55,9 +55,9 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "City they reside in",
-        "img": "src/assets/images/GreenLantern/Green-Lantern-Hal.jpg",
-        "img2": "src/assets/images/GreenLantern/Hal-Jordan.png",
-        "icon": "src/assets/images/GreenLantern/GreenLanter-Icon-GLCorps-Sandoval.png"
+        "img": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/GreenLantern/Green-Lantern-Hal.jpg?raw=true",
+        "img2": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/GreenLantern/Hal-Jordan.png?raw=true",
+        "icon": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/GreenLantern/Hal-Jordan.png?raw=true"
       },
 
       { "id": "Joker",
@@ -67,8 +67,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "Gotham",
-        "img": "src/assets/images/Joker/Joker.png",
-        "icon": "src/assets/images/Joker/Joker-Icon-Joker2Variant-Stelfreeze.png"
+        "img": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Joker/Joker.png?raw=true",
+        "icon": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Joker/Joker-Icon-Joker2Variant-Stelfreeze.png?raw=true"
       },
 
       { "id": "Jon",
@@ -78,10 +78,10 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "Smallville, Metropolis",
-        "img": "src/assets/images/JonEl/Jon-Kent.png",
-        "img2": "src/assets/images/JonEl/Superboy-Jon.jpg",
-        "img3": "src/assets/images/JonEl/Superman-Jon.png",
-        "icon": "src/assets/images/JonEl/Jon-Icon-SonOfKalEl1.png"
+        "img": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/JonEl/Jon-Kent.png?raw=true",
+        "img2": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/JonEl/Superboy-Jon.jpg?raw=true",
+        "img3": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/JonEl/Superman-Jon.png?raw=true",
+        "icon": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/JonEl/Jon-Icon-SonOfKalEl1.png?raw=true"
       },
 
       { "id": "Jor-El",
@@ -91,8 +91,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "Krypton",
-        "img": "src/assets/images/Jor/Jor-El-MoS.png",
-        "icon": "src/assets/images/Jor/Jor-Icon-Comics.png"
+        "img": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Jor/Jor-El-MoS.png?raw=true",
+        "icon": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Jor/Jor-Icon-Comics.png?raw=true"
       },
 
       { "id": "Kon",
@@ -102,8 +102,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "Smallville, Metropolis, Hawaii",
-        "img": "src/assets/images/KonEl/Kon-El-Superboy.png",
-        "icon": "src/assets/images/KonEl/KonEl-Icons-Comics.png"
+        "img": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/KonEl/Kon-El-Superboy.png?raw=true",
+        "icon": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/KonEl/KonEl-Icons-Comics.png?raw=true"
       },
 
       { "id": "Lara Jor-El",
@@ -113,8 +113,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "Krypton",
-        "img": "src/assets/images/Lara/Lara-Lor-Von.png",
-        "icon": "src/assets/images/Lara/Lara-Icon-Comics.png"
+        "img": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Lara/Lara-Lor-Von.png?raw=true",
+        "icon": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Lara/Lara-Icon-Comics.png?raw=true"
       },
 
       { "id": "Lor",
@@ -124,8 +124,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "City they reside in",
-        "img": "src/assets/images/Lor/Lor-Zod.jpg",
-        "icon": "src/assets/images/Lor/Lor-Icon-YoungJustice.png"
+        "img": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Lor/Lor-Zod.jpg?raw=true",
+        "icon": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Lor/Lor-Icon-YoungJustice.png?raw=true"
       },
 
       { "id": "Luthor",
@@ -135,8 +135,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "City they reside in",
-        "img": "src/assets/images/Luthor/Luthor-Young-Justice.jpg",
-        "icon": "src/assets/images/Luthor/Luthor-Icon-Comics.png"
+        "img": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Luthor/Luthor-Young-Justice.jpg?raw=true",
+        "icon": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Luthor/Luthor-Icon-Comics.png?raw=true"
       },
 
       { "id": "NightWing",
@@ -146,9 +146,9 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "Bludhaven",
-        "img": "src/assets/images/Nightwing/Nightwing-Comics.png",
-        "img2": "src/assets/images/Nightwing/Grayson-Comics.jpg",
-        "icon": "src/assets/images/Nightwing/Nightwing-Icon-Comic.png"
+        "img": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Nightwing/Grayson-Comics.jpg?raw=true",
+        "img2": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Nightwing/Nightwing-Comics.png?raw=true",
+        "icon": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Nightwing/Nightwing-Icon-Comic.png?raw=true"
       },
 
       { "id": "Nim",
@@ -158,8 +158,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "City they reside in",
-        "img": "src/assets/images/Nim/Nim-El.png",
-        "icon": "src/assets/images/Nim/Nim-El.png"
+        "img": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Nim/Nim-El.png?raw=true",
+        "icon": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Nim/Nim-El.png?raw=true"
       },
 
       { "id": "Oracle",
@@ -169,10 +169,10 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "Gotham",
-        "img": "src/assets/images/Oracle/Babs-Oracle.jpg",
-        "img2": "src/assets/images/Oracle/Barbara-gordon.jpg",
-        "img3": "src/assets/images/Oracle/Babs-Batgirl.jpg",
-        "icon": "src/assets/images/Oracle/Oracle-Icon-Comic.png"
+        "img": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Oracle/Babs-Oracle.jpg?raw=true",
+        "img2": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Oracle/Babs-Batgirl.jpg?raw=true",
+        "img3": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Oracle/Barbara-gordon.jpg?raw=true",
+        "icon": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Oracle/Oracle-Icon-Comic.png?raw=true"
       },
 
       { "id": "RedHood",
@@ -182,9 +182,9 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "Gotham",
-        "img": "src/assets/images/RedHood/Red-Hood-Comics.png",
-        "img2": "src/assets/images/RedHood/Jason-Todd-Comics.jpg",
-        "icon": "src/assets/images/RedHood/RedHood-Icon-Comic.png"
+        "img": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/RedHood/Red-Hood-Comics.png?raw=true",
+        "img2": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/RedHood/Jason-Todd-Comics.jpg?raw=true",
+        "icon": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/RedHood/RedHood-Icon-Comic.png?raw=true"
       },
 
       { "id": "RedRobin",
@@ -194,9 +194,9 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "Gotham",
-        "img": "src/assets/images/RedRobin/Red-Robin-Comics.jpg",
-        "img2": "src/assets/images/RedRobin/Tim-Drake-Comics.png",
-        "icon": "src/assets/images/RedRobin/RedRobin-Icon-Comic.png"
+        "img": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/RedRobin/Red-Robin-Comics.jpg?raw=true",
+        "img2": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/RedRobin/Tim-Drake-Comics.png?raw=true",
+        "icon": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/RedRobin/RedRobin-Icon-Comic.png?raw=true"
       },
 
       { "id": "Robin",
@@ -206,9 +206,9 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "Gotham",
-        "img": "src/assets/images/Robin/Robin-Comics-Damian.png",
-        "img2": "src/assets/images/Robin/Damian-Wayne-Comics-WFA.png",
-        "icon": "src/assets/images/Robin/Robin-Damian-Icon-Comics.png"
+        "img": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Robin/Robin-Comics-Damian.png?raw=true",
+        "img2": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Robin/Damian-Wayne-Comics-WFA.png?raw=true",
+        "icon": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Robin/Robin-Damian-Icon-Comics.png?raw=true"
       },
 
       { "id": "Superman",
@@ -218,9 +218,9 @@
         "description": "Lawful Good",
         "shortbio": "The last son of Krypton, born shortly before the planet's demise and sent away to save him.He was raised on Earth by the Kents.",
         "location": "Metropolis",
-        "img": "src/assets/images/Superman/Superman-New-52.jpg",
-        "img2": "src/assets/images/Superman/clark-kent-new-52.png",
-        "icon": "src/assets/images/Superman/Superman-Clark-Icon-Comics.png"
+        "img": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Superman/Superman-New-52.jpg?raw=true",
+        "img2": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Superman/clark-kent-new-52.png?raw=true",
+        "icon": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Superman/Superman-Clark-Icon-Comics.png?raw=true"
       },
 
       { "id": "Zod",
@@ -230,8 +230,8 @@
         "description": "Lawful Evil, possibly Lawful Neutral. Potential to be good, but not in main continuity.",
         "shortbio": "The last leader of the Kryptonian Warrior Guild and the last General of the Kryptonian army. He existed to protect Krypton and lives with the guilt of failing.",
         "location": "Phantom Zone, usually",
-        "img": "src/assets/images/Zod/Dru-Zod-MoS.jpg",
-        "icon": "src/assets/images/Zod/Zod-Icon-Comics.png"
+        "img": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Zod/Dru-Zod-MoS.jpg?raw=true",
+        "icon": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Zod/Zod-Icon-Comics.png?raw=true"
       },
 
       { "id": "Zor",
@@ -241,8 +241,8 @@
         "description": "description",
         "shortbio": "A Snippet about them",
         "location": "Krypton",
-        "img": "src/assets/images/Zor/zor-el.png",
-        "icon": "src/assets/images/Zor/Zor-Icon-Comics.png"
+        "img": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Zor/zor-el.png?raw=true",
+        "icon": "https://github.com/JusticePlague/fan-website-build/blob/main/src/assets/images/Zor/Zor-Icon-Comics.png?raw=true"
       }
     ]
   }
