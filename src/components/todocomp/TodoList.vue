@@ -22,8 +22,6 @@ const { toggleCompleted, deleteTodo } = store
 </template>
 
 <style scoped>
-
-
 .item {
   display: flex;
   justify-content: right;

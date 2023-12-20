@@ -23,7 +23,6 @@ import TodoList from './TodoList.vue'
 }
 
 @media (min-width: 1024px) {
-
   .todo-app {
     padding: 0vh;
     min-width: 50vw;

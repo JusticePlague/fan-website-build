@@ -4,15 +4,15 @@ import CharService from '@/services/CharService.js'
 import ColorBar from '/src/components/TheColorBar.vue'
 import { watchEffect } from 'vue'
 
-     let count = 6
-     if (matchMedia("(max-width: 1100)").matches){
-      count = 6
-     } else if (matchMedia("(min-width: 1101px) and (max-width: 1400px)").matches){
-      count = 12
-     } else if (matchMedia("(min-width: 1401px)").matches) {
-      count = 24
-     }
-     console.log(count)
+let count = 6
+if (matchMedia('(max-width: 1100)').matches) {
+  count = 6
+} else if (matchMedia('(min-width: 1101px) and (max-width: 1400px)').matches) {
+  count = 12
+} else if (matchMedia('(min-width: 1401px)').matches) {
+  count = 24
+}
+console.log(count)
 
 export default {
   name: 'CharacterList',
@@ -23,7 +23,7 @@ export default {
   },
   data() {
     return {
-      title: "Character List",
+      title: 'Character List',
       characters: null,
       totalCharacters: 0
     }
@@ -45,7 +45,7 @@ export default {
     hasNextPage() {
       let totalPages = Math.ceil(this.totalCharacters / count)
       return this.page < totalPages
-    },
+    }
   }
 }
 </script>
@@ -122,7 +122,6 @@ export default {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   border-bottom: #fff 2px solid;
-
 }
 
 a {
@@ -137,8 +136,7 @@ a :active {
   color: var(--link-active);
 }
 
-
-@media (min-width: 3000px){
+@media (min-width: 3000px) {
   .cardGrid {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   }

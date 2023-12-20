@@ -47,10 +47,7 @@
   border-bottom-left-radius: 50px;
 }
 
-
-
 @media (min-width: 1024px) {
-
   .page-header {
     margin-top: -25px;
     background: var(--color-2);

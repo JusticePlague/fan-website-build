@@ -2,10 +2,8 @@ import './assets/main.css'
 
 import 'nprogress/nprogress.css'
 
-
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
-
 
 import TheAlert from '/src/components/modalcomp/TheAlert.vue'
 
