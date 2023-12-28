@@ -56,6 +56,7 @@
 
     --border: var(--light-accent-1);
     --border-2: var(--light-accent-5);
+    --border-3: var(--light-accent-4);
 
     --text-box-header: var(--light-accent-3);
     --text-box-header-text: var(--light-accent-5);
@@ -111,6 +112,7 @@
 
     --border: var(--dark-accent-3);
     --border-2: var(--dark-accent-5);
+    --border-3: var(--dark-accent-4);
 
     --text-box-header: var(--dark-accent-2);
     --text-box-header-text: var(--dark-accent-5);

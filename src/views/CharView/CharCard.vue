@@ -21,7 +21,7 @@ export default {
       <div class="iconTainer">
         <img :src="`${charIcon}`" class="icon" />
       </div>
-      <div>
+      <div class="paraTainer">
         <p>{{ character.name }}</p>
       </div>
     </div>
@@ -29,6 +29,36 @@ export default {
 </template>
 
 <style scoped>
+
+.card{
+  display: grid;
+  grid-template-rows: 3fr 5vw;
+  background: #fff;
+  margin: 5px;
+}
+
+.paraTainer p {
+  color: var(--link);
+  
+}
+
+.iconTainer {
+  max-width: fit-content;
+  
+}
+
+.icon {
+  border-bottom: var(--border-3) solid 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 14vw;
+}
+
+a {
+  max-width: fit-content;
+}
+
+/*
 .card {
   display: grid;
   grid-template-rows: 1fr 2.5vw;
@@ -63,6 +93,7 @@ export default {
 a {
   max-width: fit-content;
 }
+
 
 @media (min-width: 3000px) {
   .card p {
@@ -156,5 +187,6 @@ a {
     width: 35vw;
     max-width: 35vw;
   }
-}
+}*/
+
 </style>

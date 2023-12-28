@@ -121,7 +121,6 @@ export default {
   width: 70vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  border-bottom: #fff 2px solid;
 }
 
 a {
@@ -136,6 +135,7 @@ a :active {
   color: var(--link-active);
 }
 
+/*
 @media (min-width: 3000px) {
   .cardGrid {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -166,4 +166,5 @@ a :active {
     grid-template-columns: 1fr;
   }
 }
+*/
 </style>
