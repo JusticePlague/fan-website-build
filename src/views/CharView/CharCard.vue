@@ -37,14 +37,19 @@ export default {
   margin: 5px;
 }
 
+.paraTainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .paraTainer p {
   color: var(--link);
-  
 }
 
 .iconTainer {
   max-width: fit-content;
-  
 }
 
 .icon {
@@ -56,6 +61,19 @@ export default {
 
 a {
   max-width: fit-content;
+}
+
+a :hover{
+  background: var(--button);
+}
+
+.paraTainer :hover{
+  background: none;
+  color: var(--link-hover);
+}
+
+.iconTainer :hover{
+  background: none;
 }
 
 /*

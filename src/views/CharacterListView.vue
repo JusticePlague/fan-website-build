@@ -4,13 +4,13 @@ import CharService from '@/services/CharService.js'
 import ColorBar from '/src/components/TheColorBar.vue'
 import { watchEffect } from 'vue'
 
-let count = 6
+let count = 10
 if (matchMedia('(max-width: 1100)').matches) {
-  count = 6
+  count = 10
 } else if (matchMedia('(min-width: 1101px) and (max-width: 1400px)').matches) {
-  count = 12
+  count = 20
 } else if (matchMedia('(min-width: 1401px)').matches) {
-  count = 24
+  count = 30
 }
 console.log(count)
 
@@ -25,7 +25,7 @@ export default {
     return {
       title: 'Character List',
       characters: null,
-      totalCharacters: 0
+      totalCharacters: 0 
     }
   },
   created() {
@@ -123,6 +123,10 @@ export default {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
+
+
+/*
+
 a {
   color: var(--link);
 }
@@ -135,7 +139,6 @@ a :active {
   color: var(--link-active);
 }
 
-/*
 @media (min-width: 3000px) {
   .cardGrid {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
