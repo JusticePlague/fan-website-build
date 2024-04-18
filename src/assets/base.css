@@ -11,35 +11,44 @@
   --alert-button-hover: #000;
   --alert-button-text-hover: #dd0000;
 
-  /*    Light Mode    */
-  --light: #ffee91;
-  --light-2: #fffbbf;
+  --text-dark-1: #000;
+  --text-dark-2: #111522;
+  --text-light-1: #fff;
+  --text-light-2: #f3ebcc;
 
-  --light-accent-1: #808080;
-  --light-accent-1t: #60606080;
-  --light-accent-2: #404040;
-  --light-accent-2t: #40404080;
-  --light-accent-3: #0080dd;
-  --light-accent-3t: #0080dd80;
-  --light-accent-4: #dd0000;
-  --light-accent-4t: #dd000080;
-  --light-accent-5: #000000;
-  --light-accent-5t: #00000080;
+  /*    Light Mode    */
+  --light: #e5eafc;
+  --light-2: #ffffff;
+
+  --light-accent-1: #b0c0f7;
+  --light-accent-1t: #b0c0f780;
+  --light-accent-2: #7599f0;
+  --light-accent-2t: #7599f080;
+  --light-accent-3: #0074e8;
+  --light-accent-3t: #0074e880;
+  --light-accent-4: #1e427e;
+  --light-accent-4t: #1e427e80;
+  --light-accent-5:#111522;
+  --light-accent-5t:#11152280;
+  --light-accent-6:#d4b540;
+  --light-accent-6t:#d4b54080;
 
   /*    Dark Mode    */
-  --dark: #000000;
-  --dark-2: #0f0f0f;
+  --dark: #111522;
+  --dark-2: #000000;
 
-  --dark-accent-1: #c0c0c0;
-  --dark-accent-1t: #c0c0c080;
-  --dark-accent-2: #808080;
-  --dark-accent-2t: #80808080;
-  --dark-accent-3: #0066ff;
-  --dark-accent-3t: #0066ff80;
-  --dark-accent-4: #c00000;
-  --dark-accent-4t: #c0000080;
-  --dark-accent-5: #ffee91;
-  --dark-accent-5t: #ffee9180;
+  --dark-accent-1: #18233f;
+  --dark-accent-1t: #18233f80;
+  --dark-accent-2: #1c52a0;
+  --dark-accent-2t: #1c52a080;
+  --dark-accent-3: #0074e8;
+  --dark-accent-3t: #0074e880;
+  --dark-accent-4: #94acf3;
+  --dark-accent-4t: #94acf380;
+  --dark-accent-5:#e5eafc;
+  --dark-accent-5t:#e5eafc80;
+  --dark-accent-6:#f1bb08;
+  --dark-accent-6t:#927a2080;
 
   /* Universal Variables */
   --section-gap: 160px;
@@ -55,21 +64,20 @@
     --bg-2: var(--light-2);
 
     --border: var(--light-accent-1);
-    --border-2: var(--light-accent-5);
-    --border-3: var(--light-accent-4);
+    --border-2: var(--light-accent-4);
 
     --text-box-header: var(--light-accent-3);
-    --text-box-header-text: var(--light-accent-5);
+    --text-box-header-text: var(--text-light-2);
     --text-box: var(--light-2);
 
-    --nav: var(--light-accent-5);
-    --nav-border: var(--light-accent-4);
+    --nav: var(--light-accent-4);
+    --nav-border: var(--light-accent-6);
     --nav-hover: var(--light-accent-2);
     --nav-border-hover: var(--light-accent-2);
     --nav-link: var(--light);
     --nav-link-hover: var(--light);
-    --nav-link-active: var(--light-accent-4);
-    --nav-link-active-hover: var(--light-accent-4);
+    --nav-link-active: var(--text-light-2);
+    --nav-link-active-hover: var(--light-accent-6);
 
     --button: var(--light-accent-3);
     --button-text: var(--light-accent-5);
@@ -81,10 +89,11 @@
     --text-3: var(--light-accent-3);
     --text-4: var(--light-accent-4);
     --text-5: var(--light-accent-5);
+    --text-6: var(--light-accent-6);
 
-    --link: var(--light-accent-3);
-    --link-active: var(--light-accent-4);
-    --link-hover: var(--dark);
+    --link: var(--light-accent-4);
+    --link-active: var(--light-accent-6);
+    --link-hover: var(--text-light-2);
 
     --color-1: var(--light-accent-1);
     --color-1t: var(--light-accent-1t);
@@ -96,11 +105,14 @@
     --color-4t: var(--light-accent-4t);
     --color-5: var(--light-accent-5);
     --color-5t: var(--light-accent-5t);
+    --color-6: var(--light-accent-6);
+    --color-6t: var(--light-accent-6t);
 
-    --color-bar-1: var(--light-accent-1);
-    --color-bar-2: var(--light-accent-2);
-    --color-bar-3: var(--light-accent-5);
-    --color-bar-text: var(--dark-accent-5);
+
+    --color-bar-1: var(--light-accent-5);
+    --color-bar-2: var(--light-accent-4);
+    --color-bar-3: var(--light-accent-3);
+    --color-bar-text: var(--text-light-2);
   }
 }
 
@@ -110,37 +122,42 @@
     --bg: var(--dark);
     --bg-2: var(--dark-2);
 
-    --border: var(--dark-accent-3);
-    --border-2: var(--dark-accent-5);
-    --border-3: var(--dark-accent-4);
+    --border: var(--dark-accent-1);
+    --border-2: var(--dark-accent-4);
 
-    --text-box-header: var(--dark-accent-2);
-    --text-box-header-text: var(--dark-accent-5);
+    --text-box-header: var(--dark-accent-3);
+    --text-box-header-text: var(--text-dark-2);
     --text-box: var(--dark-2);
 
-    --nav: var(--dark-accent-5);
-    --nav-border: var(--dark-accent-4);
+    --nav: var(--dark-accent-4);
+    --nav-border: var(--dark-accent-6);
     --nav-hover: var(--dark-accent-2);
     --nav-border-hover: var(--dark-accent-2);
     --nav-link: var(--dark);
     --nav-link-hover: var(--dark);
-    --nav-link-active: var(--dark-accent-4);
-    --nav-link-active-hover: var(--dark-accent-4);
+    --nav-link-active: var(--text-dark-2);
+    --nav-link-active-hover: var(--dark-accent-6);
 
-    --button: var(--dark-accent-3t);
-    --button-text: var(--dark-accent-1);
+    --button: var(--dark-accent-3);
+    --button-text: var(--dark-accent-5);
     --button-hover: var(--dark-accent-5);
     --button-text-hover: var(--dark-accent-4);
+
+    --link: var(--dark-accent-1);
+    --link-active: var(--dark-accent-6);
+    --link-hover: var(--dark-accent-6);
+
+    --color-bar-1: var(--dark-accent-5);
+    --color-bar-2: var(--dark-accent-4);
+    --color-bar-3: var(--dark-accent-3);
+    --color-bar-text: var(--text-dark-2);
 
     --text-1: var(--dark-accent-1);
     --text-2: var(--dark-accent-2);
     --text-3: var(--dark-accent-3);
     --text-4: var(--dark-accent-4);
     --text-5: var(--dark-accent-5);
-
-    --link: var(--dark-accent-3);
-    --link-active: var(--dark-accent-5);
-    --link-hover: var(--light);
+    --text-6: var(--dark-accent-6);
 
     --color-1: var(--dark-accent-1);
     --color-1t: var(--dark-accent-1t);
@@ -152,10 +169,7 @@
     --color-4t: var(--dark-accent-4t);
     --color-5: var(--dark-accent-5);
     --color-5t: var(--dark-accent-5t);
-
-    --color-bar-1: var(--dark-accent-5);
-    --color-bar-2: var(--dark-accent-4);
-    --color-bar-3: var(--dark-accent-3);
-    --color-bar-text: var(--alert-text);
+    --color-6: var(--dark-accent-6);
+    --color-6t: var(--dark-accent-6t);
   }
 }

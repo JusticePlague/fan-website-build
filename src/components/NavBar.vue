@@ -20,7 +20,7 @@ nav {
   font-size: 2.5vw;
   text-align: center;
   margin-top: 2rem;
-  background-color: var(--color-5);
+  background-color: var(--nav);
   border-radius: 50px;
   padding: 10px;
 }
@@ -60,7 +60,7 @@ nav a.router-link-exact-active:hover {
     position: fixed;
     top: -5vh;
     left: 0;
-    background-color: var(--color-5);
+    background-color: var(--nav);
     overflow: auto;
     overflow-x: hidden;
     padding-top: 20px;
