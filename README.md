@@ -1,6 +1,7 @@
-# zz-website-build-test-todo
+# Fan-Site-Coding
 
-This template should help get you started developing with Vue 3 in Vite.
+Began with Vue 3 set up template.
+Have a good day.
 
 ## Recommended IDE Setup
 
