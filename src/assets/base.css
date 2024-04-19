@@ -48,7 +48,7 @@
   --dark-accent-5:#e5eafc;
   --dark-accent-5t:#e5eafc80;
   --dark-accent-6:#f1bb08;
-  --dark-accent-6t:#927a2080;
+  --dark-accent-6L:#f8e7ab;
 
   /* Universal Variables */
   --section-gap: 160px;
@@ -84,16 +84,21 @@
     --button-hover: var(--light-accent-5);
     --button-text-hover: var(--light-accent-4);
 
+    --text:var(--text-dark-2);
     --text-1: var(--light-accent-1);
     --text-2: var(--light-accent-2);
     --text-3: var(--light-accent-3);
     --text-4: var(--light-accent-4);
     --text-5: var(--light-accent-5);
     --text-6: var(--light-accent-6);
+    
 
     --link: var(--light-accent-4);
-    --link-active: var(--light-accent-6);
-    --link-hover: var(--text-light-2);
+    --link-active: var(--light-accent-2);
+    --link-hover: var(--light-accent-2);
+
+    --card-hover: var(--light-accent-3);
+    --card-text-hover: var(--text-light-2);
 
     --color-1: var(--light-accent-1);
     --color-1t: var(--light-accent-1t);
@@ -136,22 +141,26 @@
     --nav-link: var(--dark);
     --nav-link-hover: var(--dark);
     --nav-link-active: var(--text-dark-2);
-    --nav-link-active-hover: var(--dark-accent-6);
+    --nav-link-active-hover: var(--dark-accent-6L);
 
     --button: var(--dark-accent-3);
     --button-text: var(--dark-accent-5);
     --button-hover: var(--dark-accent-5);
     --button-text-hover: var(--dark-accent-4);
 
-    --link: var(--dark-accent-1);
-    --link-active: var(--dark-accent-6);
+    --link: var(--dark-accent-6);
+    --link-active: var(--dark-accent-4);
     --link-hover: var(--dark-accent-6);
+
+    --card-hover: var(--dark-accent-2);
+    --card-text-hover: var(--text-light-2);
 
     --color-bar-1: var(--dark-accent-5);
     --color-bar-2: var(--dark-accent-4);
     --color-bar-3: var(--dark-accent-3);
     --color-bar-text: var(--text-dark-2);
 
+    --text:var(--text-light-2);
     --text-1: var(--dark-accent-1);
     --text-2: var(--dark-accent-2);
     --text-3: var(--dark-accent-3);

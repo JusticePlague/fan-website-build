@@ -73,8 +73,8 @@ a {
 }
 
 .cardTainer :hover{
-  background: var(--button);
-  color: var(--link-hover);
+  background: var(--card-hover);
+  color: var(--card-text-hover);
 }
 
 .paraTainer :hover{

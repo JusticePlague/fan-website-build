@@ -105,6 +105,16 @@ export default {
 <style scoped>
 .pagination {
   padding-bottom: 10px;
+  color: var(--link);
+  transition: 0.4s;
+}
+
+.pagination :hover {
+  color: var(--link-hover);
+}
+
+.pagination :active {
+  color: var(--link-active);
 }
 
 #page-prev {
