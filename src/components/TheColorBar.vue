@@ -41,4 +41,14 @@ export default {
   margin-top: 5vh;
   width: 75vw;
 }
+
+/*   Page resizing and Item Placement    */
+
+@media (min-width: 1388px) {
+}
+
+@media (max-width: 480px) {
+}
+
+
 </style>

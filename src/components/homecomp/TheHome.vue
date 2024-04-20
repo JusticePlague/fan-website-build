@@ -275,9 +275,15 @@ export default {
   border-bottom-right-radius: 50px;
 }
 
-/*Resizing*/
+/*   Page resizing and Item Placement    */
 
-@media (min-width: 681px) {
+@media (min-width: 1388px) {
+}
+
+@media (max-width: 480px) {
+}
+
+/*@media (min-width: 681px) {
   .lefttop,
   .righttop {
     border-bottom: var(--border) solid 5px;
@@ -375,5 +381,5 @@ export default {
   .box-header-top h1 {
     margin-bottom: -2vh;
   }
-}
+}*/
 </style>

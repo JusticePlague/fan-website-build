@@ -140,7 +140,7 @@
     --nav-border-hover: var(--dark-accent-2);
     --nav-link: var(--dark);
     --nav-link-hover: var(--dark);
-    --nav-link-active: var(--text-dark-2);
+    --nav-link-active: var(--text-light-2);
     --nav-link-active-hover: var(--dark-accent-6L);
 
     --button: var(--dark-accent-3);

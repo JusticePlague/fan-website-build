@@ -125,6 +125,15 @@ export default {
   content: var(--grid-img);
 }
 
+/*   Page resizing and Item Placement    */
+
+@media (min-width: 1388px) {
+}
+
+@media (max-width: 480px) {
+}
+
+/*
 @media (max-width: 780px) {
   .grid {
     display: grid;
@@ -198,4 +207,5 @@ export default {
     grid-auto-columns: 15vw;
   }
 }
+*/
 </style>

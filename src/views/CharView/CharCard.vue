@@ -86,7 +86,13 @@ a {
   border-bottom: var(--border-2) solid 5px;
 }
 
+/*   Page resizing and Item Placement    */
 
+@media (min-width: 1388px) {
+}
+
+@media (max-width: 480px) {
+}
 
 
 

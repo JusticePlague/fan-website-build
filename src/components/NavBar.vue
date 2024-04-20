@@ -48,64 +48,11 @@ nav a.router-link-exact-active:hover {
   color: var(--nav-link-active-hover);
 }
 
-@media (min-width: 1024px) {
-  nav {
-    font-size: 1.15rem;
-    text-align: left;
-    display: block;
-    font-family: 'Cinzel';
-    font-size: 16px;
-    width: 15vw;
-    height: 50vh;
-    position: fixed;
-    top: -5vh;
-    left: 0;
-    background-color: var(--nav);
-    overflow: auto;
-    overflow-x: hidden;
-    padding-top: 20px;
-    border-bottom-right-radius: 50px;
-  }
+/*   Page resizing and Item Placement    */
 
-  nav a {
-    color: var(--nav-link);
-    padding: 0 1vw;
-    border: 1px solid var(--nav-border);
-    border-left: 4px solid var(--nav-border);
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    margin-top: 1vh;
-    margin-left: 1vh;
-    max-width: 13vw;
-    display: block;
-    text-decoration: none;
-    text-align: center;
-  }
+@media (min-width: 1388px) {
+}
 
-  nav a:hover {
-    background-color: var(--nav-hover);
-    color: var(--nav-link-hover);
-    border: 1px solid var(--nav-border-hover);
-    border-left: 4px solid var(--nav-border-hover);
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-  }
-
-  nav a.router-link-exact-active {
-    color: var(--nav-link-active);
-    border: 1px solid var(--nav-border-hover);
-    border-left: 4px solid var(--nav-border-hover);
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-  }
-
-  nav a.router-link-exact-active:hover {
-    background-color: transparent;
-    border: 1px solid var(--nav-border-hover);
-    border-left: 4px solid var(--nav-border-hover);
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    color: var(--nav-link-active-hover);
-  }
+@media (max-width: 480px) {
 }
 </style>

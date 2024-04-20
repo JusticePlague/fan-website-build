@@ -133,51 +133,11 @@ export default {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
+/*   Page resizing and Item Placement    */
 
-
-/*
-
-a {
-  color: var(--link);
+@media (min-width: 1388px) {
 }
 
-a :hover {
-  color: var(--link-hover);
+@media (max-width: 480px) {
 }
-
-a :active {
-  color: var(--link-active);
-}
-
-@media (min-width: 3000px) {
-  .cardGrid {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  }
-}
-
-@media (max-width: 2000px) {
-  .cardGrid {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}
-
-@media (max-width: 1024px) {
-  .cardGrid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width: 715px) {
-  .cardGrid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width: 500px) {
-  .cardGrid {
-    width: fit-content;
-    grid-template-columns: 1fr;
-  }
-}
-*/
 </style>

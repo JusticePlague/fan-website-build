@@ -8,4 +8,6 @@ import TheContact from '../components/contactcomp/TheContact.vue'
   </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+
+</style>

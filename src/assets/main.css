@@ -144,11 +144,7 @@ header {
 
 /*   Page resizing and Item Placement    */
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
+@media (min-width: 1388px) {
 }
 
 @media (max-width: 480px) {
