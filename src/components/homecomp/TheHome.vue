@@ -277,10 +277,43 @@ export default {
 
 /*   Page resizing and Item Placement    */
 
-@media (min-width: 1388px) {
+@media (min-width: 1920px) {
 }
 
-@media (max-width: 480px) {
+@media (min-width: 1440px) {
+}
+
+@media (max-width: 1366px) {
+}
+
+@media (min-width: 1280px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 601px) {
+}
+
+@media (max-width: 414px) {
+}
+
+@media (max-width: 412px) {
+}
+
+@media (max-width: 393px) {
+}
+
+@media (max-width: 390px) {
+}
+
+@media (max-width: 375px) {
+}
+
+@media (max-width: 360px) {
 }
 
 /*@media (min-width: 681px) {
