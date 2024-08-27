@@ -16,9 +16,10 @@ export default {
 
 <template>
   <ColorBar :title="title" />
-
   <main>
+
     <div class="main flex col-12" id="flex">
+      
       <div class="lefttop" id="one">
         <div class="box-header-top">
           <h1>One</h1>
@@ -56,46 +57,9 @@ export default {
         </div>
       </div>
 
-      <div class="leftbottom" id="four">
-        <div class="box-header-bottom">
-          <h1>Two</h1>
-        </div>
-
-        <div class="box-text-bottom">
-          <h1>Testing Heading One</h1>
-          <h2>Testing Heading Two</h2>
-          <h3>Testing Heading Three</h3>
-          <h4>Testing Heading Four</h4>
-          <h5>Testing Heading Five</h5>
-          <h6>Testing Heading Six</h6>
-          <p>Testing Paragraph</p>
-          <h1>Testing Heading One</h1>
-          <h2>Testing Heading Two</h2>
-          <h3>Testing Heading Three</h3>
-          <h4>Testing Heading Four</h4>
-          <h5>Testing Heading Five</h5>
-          <h6>Testing Heading Six</h6>
-          <p>Testing Paragraph</p>
-          <h1>Testing Heading One</h1>
-          <h2>Testing Heading Two</h2>
-          <h3>Testing Heading Three</h3>
-          <h4>Testing Heading Four</h4>
-          <h5>Testing Heading Five</h5>
-          <h6>Testing Heading Six</h6>
-          <p>Testing Paragraph</p>
-          <h1>Testing Heading One</h1>
-          <h2>Testing Heading Two</h2>
-          <h3>Testing Heading Three</h3>
-          <h4>Testing Heading Four</h4>
-          <h5>Testing Heading Five</h5>
-          <h6>Testing Heading Six</h6>
-          <p>Testing Paragraph</p>
-        </div>
-      </div>
-
       <div class="righttop" id="two">
         <div class="box-header-top">
-          <h1>Four</h1>
+          <h1>Two</h1>
         </div>
 
         <div class="box-text-top">
@@ -166,7 +130,46 @@ export default {
           <p>Testing Paragraph</p>
         </div>
       </div>
+
+      <div class="leftbottom" id="four">
+        <div class="box-header-bottom">
+          <h1>Four</h1>
+        </div>
+
+        <div class="box-text-bottom">
+          <h1>Testing Heading One</h1>
+          <h2>Testing Heading Two</h2>
+          <h3>Testing Heading Three</h3>
+          <h4>Testing Heading Four</h4>
+          <h5>Testing Heading Five</h5>
+          <h6>Testing Heading Six</h6>
+          <p>Testing Paragraph</p>
+          <h1>Testing Heading One</h1>
+          <h2>Testing Heading Two</h2>
+          <h3>Testing Heading Three</h3>
+          <h4>Testing Heading Four</h4>
+          <h5>Testing Heading Five</h5>
+          <h6>Testing Heading Six</h6>
+          <p>Testing Paragraph</p>
+          <h1>Testing Heading One</h1>
+          <h2>Testing Heading Two</h2>
+          <h3>Testing Heading Three</h3>
+          <h4>Testing Heading Four</h4>
+          <h5>Testing Heading Five</h5>
+          <h6>Testing Heading Six</h6>
+          <p>Testing Paragraph</p>
+          <h1>Testing Heading One</h1>
+          <h2>Testing Heading Two</h2>
+          <h3>Testing Heading Three</h3>
+          <h4>Testing Heading Four</h4>
+          <h5>Testing Heading Five</h5>
+          <h6>Testing Heading Six</h6>
+          <p>Testing Paragraph</p>
+        </div>
+      </div>
+
     </div>
+
   </main>
 </template>
 
@@ -208,57 +211,30 @@ export default {
 
 .lefttop,
 .righttop {
-  border-radius: 50px;
-  margin-top: -1vh;
+
 }
 
 .leftbottom,
 .rightbottom {
-  margin-top: 0;
-}
 
-.box-header-top,
-.box-header-top h1 {
-  margin: 1vh 0 0 0;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-}
-
-.box-header-top,
-.box-header-bottom {
-  background: var(--text-box-header);
-  color: var(--text-box-header-text);
-  padding-top: 5px;
-}
-
-.box-header-bottom {
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-}
-
-.box-header-top h1 {
-  margin-top: 1vh;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-  font-size: 1.5rem;
-}
-.box-header-bottom h1 {
-  margin-top: 0.5vh;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-  font-size: 1.5rem;
 }
 
 .box-header-bottom h1,
 .box-header-top h1 {
-  margin-bottom: 0vh;
-  background: var(--text-box-header);
   color: var(--text-box-header-text);
+  margin-top: 0.5vh;
+  font-size: 1.5rem;
 }
+
 
 .box-header-top,
 .box-header-bottom {
   background: var(--text-box-header);
+  color: var(--text-box-header-text);
+  padding-top: 15px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-top: var(--border) solid 5px;
 }
 
 .box-text-top,
@@ -273,61 +249,72 @@ export default {
   overflow: scroll;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
+  border-bottom: var(--border) solid 5px;
 }
 
 /*   Page resizing and Item Placement    */
 
-@media (min-width: 1920px) {
-}
+@media (max-width: 720px) {
+  .main {
+    display: block;
+    margin-top: 2vh;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: fit-content;
+  }
 
-@media (min-width: 1440px) {
-}
+  #flex {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: transparent;
+    max-width: 80vw;
+    height: 50vh;
+    text-align: center;
+    display: block;
+  }
 
-@media (max-width: 1366px) {
-}
+  #one,
+  #two,
+  #three,
+  #four {
+    width: 100%;
+  }
 
-@media (min-width: 1280px) {
-}
-
-@media (min-width: 1024px) {
-}
-
-@media (max-width: 768px) {
-}
-
-@media (max-width: 601px) {
-}
-
-@media (max-width: 414px) {
-}
-
-@media (max-width: 412px) {
-}
-
-@media (max-width: 393px) {
-}
-
-@media (max-width: 390px) {
-}
-
-@media (max-width: 375px) {
-}
-
-@media (max-width: 360px) {
-}
-
-/*@media (min-width: 681px) {
-  .lefttop,
-  .righttop {
+  .box-text-top,
+  .box-text-bottom {
+    height: 250px;
+    max-height: 50vh;
+    margin: auto;
+    text-align: center;
+    padding: 10px 25px;
+    overflow: scroll;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
     border-bottom: var(--border) solid 5px;
   }
 
+  .box-header-top h1,
   .box-header-bottom h1 {
+    color: var(--text-box-header-text);
+    margin-top: 0.5vh;
+    font-size: 1.5rem;
+  }
+  
+  .box-header-bottom,
+  .box-header-top {
+    background: var(--text-box-header);
+    color: var(--text-box-header-text);
+    padding-top: 15px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
     border-top: var(--border) solid 5px;
   }
+
 }
 
-@media (max-width: 680px) {
+/*@media (max-width: 680px) {
   .main {
     display: block;
     margin-top: 2vh;

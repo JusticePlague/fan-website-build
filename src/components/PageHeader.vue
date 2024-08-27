@@ -16,6 +16,7 @@
   background: var(--color-3);
   margin-left: auto;
   margin-right: auto;
+  min-width: 185px;
   width: 70vw;
   margin-top: -5vh;
   margin-bottom: 2vh;

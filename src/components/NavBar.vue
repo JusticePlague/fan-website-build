@@ -1,8 +1,7 @@
 <script setup></script>
 
 <template>
-  <header>
-
+  
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
@@ -11,14 +10,13 @@
         <RouterLink to="/contact">Contact</RouterLink>
       </nav>
 
-  </header>
 </template>
 
 <style scoped>
 nav {
-  min-width: 100px;
-  max-width: 720px;
-  max-height: 60px;
+  min-width: 185px;
+  width: 70vw;
+  max-height: fit-content;
   font-size: 2.5vw;
   text-align: center;
   margin-top: 2rem;
@@ -54,76 +52,57 @@ nav a.router-link-exact-active:hover {
 
 /*   Page resizing and Item Placement    */
 
-@media (min-width: 1920px) {
-}
+@media (max-width: 1024px) {
 
-@media (min-width: 1440px) {
-}
-
-@media (min-width: 1366px) {
-  nav{
-    min-width: 1000px;
-    max-width: 1350px;
-  }
 }
 
 @media (min-width: 1280px) {
+
 }
 
-@media (min-width: 1024px) {
-  nav {
-    font-size: 24px;
-    min-width: 730px;
+@media (min-width: 1366px) {
+
+}
+
+@media (min-width: 1440px) {
+
+}
+
+@media (min-width: 1800px) {
+
+}
+
+@media (min-width: 1920px) {
+  nav{
+    max-height: 90px;
+    font-size: 50px;
   }
 }
 
 /*Hide Nav Bars from here down*/
-@media (max-width: 768px) {
-  nav {
-    font-size: 16px;
-    min-width: 400px;
-    max-width: 540px;
-  }
-}
 
-@media (max-width: 601px) {
-  nav {
-    font-size: 16px;
-    min-width: 100px;
-    max-width: 430px;
-  }
-}
+@media (max-width: 328px) {
 
-@media (max-width: 414px) {
-  nav {
-    font-size: 13px;
-    min-width: 100px;
-    max-width: 295px;
-  }
-}
-
-@media (max-width: 390px) {
-  nav {
-    font-size: 13px;
-    min-width: 100px;
-    max-width: 275px;
-  }
-}
-
-@media (max-width: 375px) {
-  nav {
-    font-size: 13px;
-    min-width: 100px;
-    max-width: 265px;
-  }
 }
 
 @media (max-width: 360px) {
-  nav {
-    font-size: 13px;
-    min-width: 100px;
-    max-width: 255px;
-  }
+
+}
+
+@media (max-width: 393px) {
+
+}
+
+@media (max-width: 450px) {
+
+}
+
+@media (max-width: 601px) {
+
+}
+
+@media (max-width: 768px) {
+
 }
 
 </style>

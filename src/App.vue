@@ -6,7 +6,7 @@ import NavBar from './components/NavBar.vue'
 
 <template>
   <header>
-    <div class="page-container">
+    <div class="headCon">
       <Header />
       <NavBar />
     </div>
