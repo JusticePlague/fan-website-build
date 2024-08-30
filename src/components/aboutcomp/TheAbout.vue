@@ -2,13 +2,13 @@
 import ColorBar from '/src/components/TheColorBar.vue'
 
 export default {
-  name: 'TheHome',
+  name: 'TheAbout',
   components: {
     ColorBar
   },
   data() {
     return {
-      title: "Hey, I'm Sam! \nWelcome to my page."
+      title: "Hey, I'm Sam! \nWelcome to my fan site."
     }
   }
 }

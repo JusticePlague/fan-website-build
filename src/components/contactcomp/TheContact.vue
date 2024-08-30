@@ -1,11 +1,19 @@
 <script>
+// eslint-disable-next-line no-unused-vars
 import TheAlert from '/src/components/modalcomp/TheAlert.vue'
+//it is used, down below, but conditionally
+import ColorBar from '/src/components/TheColorBar.vue'
 
 const WEB3FORMS_ACCESS_KEY = '31ad27a4-5743-4ac1-975b-1581dc702cf2'
 
 export default {
+  name: 'TheHome',
+  components: {
+    ColorBar
+  },
   data() {
     return {
+      title: "Contact Me!",
       name: '',
       email: '',
       message: '',
@@ -45,9 +53,8 @@ export default {
 </script>
 
 <template>
-  <div class="banners">
-    <h1 class="colorBar">SO LONG AND GOODNIGHTTTTT</h1>
-  </div>
+
+  <ColorBar :title="title" />
 
   <div class="alerting" v-if="alert">
     <TheAlert />

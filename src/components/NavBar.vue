@@ -1,8 +1,21 @@
-<script setup></script>
+<script setup>
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+} 
+
+</script>
 
 <template>
   
-      <nav>
+      <nav id="navbar">
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/todolist">To Do List</RouterLink>
@@ -14,17 +27,18 @@
 
 <style scoped>
 nav {
+  position: sticky;
   min-width: 185px;
   width: 70vw;
   max-height: fit-content;
-  font-size: 2.5vw;
   text-align: center;
-  margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
   background-color: var(--nav);
   border-radius: 50px;
   padding: 10px;
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  font-size: clamp(14px, 2vw, 50px);
 }
 
 nav a {
@@ -52,56 +66,16 @@ nav a.router-link-exact-active:hover {
 
 /*   Page resizing and Item Placement    */
 
-@media (max-width: 1024px) {
-
-}
-
-@media (min-width: 1280px) {
-
-}
-
-@media (min-width: 1366px) {
-
-}
-
-@media (min-width: 1440px) {
-
-}
-
-@media (min-width: 1800px) {
-
-}
-
 @media (min-width: 1920px) {
   nav{
-    max-height: 90px;
-    font-size: 50px;
+    max-height: 4vw;
+    font-size: clamp(35px, 2vw, 85px);
   }
 }
 
-/*Hide Nav Bars from here down*/
+/*Hide Nav Bars*/
 
-@media (max-width: 328px) {
-
-}
-
-@media (max-width: 360px) {
-
-}
-
-@media (max-width: 393px) {
-
-}
-
-@media (max-width: 450px) {
-
-}
-
-@media (max-width: 601px) {
-
-}
-
-@media (max-width: 768px) {
+@media (max-width:840px) {
 
 }
 

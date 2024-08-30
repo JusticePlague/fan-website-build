@@ -18,10 +18,9 @@
   margin-right: auto;
   min-width: 185px;
   width: 70vw;
-  margin-top: -5vh;
+  margin-top: 2vh;
   margin-bottom: 2vh;
-  border-bottom-right-radius: 50px;
-  border-bottom-left-radius: 50px;
+  border-radius: 50px;
 }
 
 .header {
@@ -50,42 +49,32 @@
 
 /*   Page resizing and Item Placement    */
 
-@media (min-width: 1920px) {
+@media (max-width: 720px) {
+
 }
 
-@media (min-width: 1440px) {
+@media (max-width:560px) {
+ .header-title{
+  display: none;
+ }
+ 
+ .page-header{
+  background: none;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 185px;
+  width: 70vw;
+  margin-top: -5vh;
+  margin-bottom: 0px;
+ }
+
+ .img-wrap {
+  padding-top: 3vh;
+  padding-bottom: 0px;
 }
 
-@media (max-width: 1366px) {
+.header-img {
+  max-width: 25vw;
 }
-
-@media (min-width: 1280px) {
-}
-
-@media (min-width: 1024px) {
-}
-
-@media (max-width: 768px) {
-}
-
-@media (max-width: 601px) {
-}
-
-@media (max-width: 414px) {
-}
-
-@media (max-width: 412px) {
-}
-
-@media (max-width: 393px) {
-}
-
-@media (max-width: 390px) {
-}
-
-@media (max-width: 375px) {
-}
-
-@media (max-width: 360px) {
 }
 </style>

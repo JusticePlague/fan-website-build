@@ -53,5 +53,9 @@ export default {
   }
 }
 
-
+@media (max-width:560px) {
+  .colorBar {
+    font-size: clamp(16px, calc(2vw + 2vh), 100px);
+  }
+}
 </style>

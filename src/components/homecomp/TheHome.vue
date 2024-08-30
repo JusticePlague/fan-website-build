@@ -8,7 +8,7 @@ export default {
   },
   data() {
     return {
-      title: "Hey, I'm Sam! \nWelcome to my page."
+      title: "Rao's Encyclopedia"
     }
   }
 }
@@ -254,7 +254,7 @@ export default {
 
 /*   Page resizing and Item Placement    */
 
-@media (max-width: 720px) {
+@media (max-width: 840px) {
   .main {
     display: block;
     margin-top: 2vh;
