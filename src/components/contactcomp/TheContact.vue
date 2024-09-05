@@ -56,6 +56,8 @@ export default {
 
   <ColorBar :title="title" />
 
+  <div class="announce"><h3>Please note that this is a functional contact form (even thought this entire project is currently a mess) and I will receive an email.</h3></div>
+
   <div class="alerting" v-if="alert">
     <TheAlert />
     <button @click="alert = null">Close</button>
@@ -149,5 +151,17 @@ label {
 .alerting button:hover {
   background: var(--alert-button-hover);
   color: var(--alert-button-text-hover);
+}
+
+.announce {
+  background: var(--alert-bg);
+  padding: 10px;
+  border: var(--border-2) solid 5px;
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
+
+.announce h3{
+  color: var(--alert-text);
 }
 </style>
